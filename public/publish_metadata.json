@@ -1,0 +1,12 @@
+﻿{
+    "status":  "ok",
+    "generated_at":  "2026-05-12 15:44:31",
+    "source":  "local_scheduled_task",
+    "files":  [
+                  "index.html",
+                  "collection_dashboard.json",
+                  "dashboard_overview.json",
+                  "sources_manifest.json",
+                  "run.log"
+              ]
+}

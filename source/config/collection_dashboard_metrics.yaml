@@ -1,0 +1,170 @@
+metric_groups:
+  - id: "resource_input"
+    name: "资源投入"
+    enabled: true
+    order: 10
+
+  - id: "task_continuity"
+    name: "任务连续性"
+    enabled: true
+    order: 20
+
+  - id: "vehicle_status"
+    name: "车辆状态"
+    enabled: true
+    order: 30
+
+  - id: "production_output"
+    name: "产出效率"
+    enabled: true
+    order: 40
+
+  - id: "quality_risk"
+    name: "质量风险"
+    enabled: true
+    order: 50
+
+metrics:
+  - id: "active_people"
+    group: "resource_input"
+    name: "参与人数"
+    enabled: true
+    compute: "active_people"
+    display: "number"
+    order: 10
+
+  - id: "attendance_count"
+    group: "resource_input"
+    name: "出勤人次"
+    enabled: true
+    compute: "attendance_count"
+    display: "number"
+    order: 20
+
+  - id: "white_attendance"
+    group: "resource_input"
+    name: "白班人次"
+    enabled: true
+    compute: "white_attendance"
+    display: "number"
+    order: 30
+
+  - id: "night_attendance"
+    group: "resource_input"
+    name: "夜班人次"
+    enabled: true
+    compute: "night_attendance"
+    display: "number"
+    order: 40
+
+  - id: "sd_per_day"
+    group: "resource_input"
+    name: "SD 个数/天"
+    enabled: true
+    compute: "sd_per_day"
+    display: "number"
+    order: 50
+
+  - id: "stable_participant_coverage"
+    group: "task_continuity"
+    name: "稳定参与者覆盖率"
+    enabled: true
+    compute: "stable_participant_coverage"
+    display: "percent"
+    threshold_direction: "lower_is_risk"
+    thresholds:
+      medium: 0.55
+      high: 0.35
+    order: 10
+
+  - id: "top_task_count"
+    group: "task_continuity"
+    name: "Top 任务数"
+    enabled: true
+    compute: "top_task_count"
+    display: "number"
+    order: 20
+
+  - id: "vehicle_count"
+    group: "vehicle_status"
+    name: "车辆总数"
+    enabled: true
+    compute: "vehicle_count"
+    display: "number"
+    order: 10
+
+  - id: "vehicle_active_count"
+    group: "vehicle_status"
+    name: "活跃车辆"
+    enabled: true
+    compute: "vehicle_active_count"
+    display: "number"
+    order: 20
+
+  - id: "vehicle_idle_count"
+    group: "vehicle_status"
+    name: "空闲车辆"
+    enabled: true
+    compute: "vehicle_idle_count"
+    display: "number"
+    order: 30
+
+  - id: "vehicle_abnormal_count"
+    group: "vehicle_status"
+    name: "异常车辆"
+    enabled: true
+    compute: "vehicle_abnormal_count"
+    display: "number"
+    threshold_direction: "higher_is_risk"
+    thresholds:
+      medium: 3
+      high: 8
+    order: 40
+
+  - id: "dashboard_total_collections"
+    group: "production_output"
+    name: "采集总次数"
+    enabled: true
+    compute: "dashboard_total_collections"
+    display: "number"
+    order: 10
+
+  - id: "dashboard_bos_rate"
+    group: "production_output"
+    name: "入库率"
+    enabled: true
+    compute: "dashboard_bos_rate"
+    display: "percent"
+    threshold_direction: "lower_is_risk"
+    thresholds:
+      medium: 0.7
+      high: 0.5
+    order: 20
+
+  - id: "dashboard_records"
+    group: "production_output"
+    name: "Records"
+    enabled: true
+    compute: "dashboard_records"
+    display: "number"
+    order: 30
+
+  - id: "dashboard_mileage"
+    group: "production_output"
+    name: "总里程"
+    enabled: true
+    compute: "dashboard_mileage"
+    display: "number"
+    order: 40
+
+  - id: "dashboard_quality_pass_rate"
+    group: "quality_risk"
+    name: "质检通过率"
+    enabled: true
+    compute: "dashboard_quality_pass_rate"
+    display: "percent"
+    threshold_direction: "lower_is_risk"
+    thresholds:
+      medium: 0.85
+      high: 0.7
+    order: 10

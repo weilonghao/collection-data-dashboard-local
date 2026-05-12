@@ -1,0 +1,213 @@
+{
+  "title": "采集数据看板",
+  "generatedAt": "2026-05-11T17:54:28",
+  "anchorDate": "2026-05-11",
+  "recordCount": 7886,
+  "dateRange": "",
+  "kpis": [
+    {
+      "label": "采集总次数",
+      "value": "78,897",
+      "sub": "2025-10-17 ~ 2026-05-11",
+      "allText": "采集总次数\n78,897\n2025-10-17 ~ 2026-05-11"
+    },
+    {
+      "label": "已入库 BOS",
+      "value": "76,487",
+      "sub": "2,410 待入库",
+      "allText": "已入库 BOS\n76,487\n2,410 待入库"
+    },
+    {
+      "label": "入库率",
+      "value": "96.9%",
+      "sub": "采集 -> BOS",
+      "allText": "入库率\n96.9%\n采集 -> BOS"
+    },
+    {
+      "label": "Record 文件",
+      "value": "1,087,926",
+      "sub": "平均 14.2 个/次",
+      "allText": "Record 文件\n1,087,926\n平均 14.2 个/次"
+    },
+    {
+      "label": "总里程",
+      "value": "180,317.15 km",
+      "sub": "平均 2.3 km/次",
+      "allText": "总里程\n180,317.15 km\n平均 2.3 km/次"
+    },
+    {
+      "label": "车辆数",
+      "value": "163",
+      "sub": "参与采集车辆",
+      "allText": "车辆数\n163\n参与采集车辆"
+    },
+    {
+      "label": "城市数",
+      "value": "9",
+      "sub": "城市分布",
+      "allText": "城市数\n9\n城市分布"
+    },
+    {
+      "label": "参与人数",
+      "value": "39",
+      "sub": "当前日"
+    },
+    {
+      "label": "出勤人次",
+      "value": "44",
+      "sub": "当前日"
+    },
+    {
+      "label": "车辆总数",
+      "value": "86",
+      "sub": "当前日"
+    },
+    {
+      "label": "活跃车辆",
+      "value": "51",
+      "sub": "当前日"
+    },
+    {
+      "label": "异常车辆",
+      "value": "19",
+      "sub": "当前日"
+    }
+  ],
+  "tasks": [
+    {
+      "rank": 1,
+      "task": "E2E",
+      "current": "-",
+      "compare": "-",
+      "delta": -4
+    },
+    {
+      "rank": 2,
+      "task": "TLD 数据回灌",
+      "current": "-",
+      "compare": "-",
+      "delta": 2
+    },
+    {
+      "rank": 3,
+      "task": "掉头&右转",
+      "current": "-",
+      "compare": "-",
+      "delta": -8
+    },
+    {
+      "rank": 4,
+      "task": "拓路 ISSUE 黑名单",
+      "current": "-",
+      "compare": "-",
+      "delta": -10
+    },
+    {
+      "rank": 5,
+      "task": "TLD 数据回灌,4Dlane issue",
+      "current": "-",
+      "compare": "-",
+      "delta": 4
+    }
+  ],
+  "vehicles": [
+    {
+      "date": "2026-05-12",
+      "total": 86,
+      "active": 7,
+      "idle": 61,
+      "abnormal": 18,
+      "unknown": 0
+    },
+    {
+      "date": "2026-05-11",
+      "total": 86,
+      "active": 51,
+      "idle": 16,
+      "abnormal": 19,
+      "unknown": 0
+    },
+    {
+      "date": "2026-05-10",
+      "total": 86,
+      "active": 58,
+      "idle": 13,
+      "abnormal": 15,
+      "unknown": 0
+    },
+    {
+      "date": "2026-05-09",
+      "total": 86,
+      "active": 63,
+      "idle": 7,
+      "abnormal": 16,
+      "unknown": 0
+    },
+    {
+      "date": "2026-05-08",
+      "total": 86,
+      "active": 60,
+      "idle": 9,
+      "abnormal": 17,
+      "unknown": 0
+    },
+    {
+      "date": "2026-05-07",
+      "total": 86,
+      "active": 62,
+      "idle": 5,
+      "abnormal": 19,
+      "unknown": 0
+    },
+    {
+      "date": "2026-05-06",
+      "total": 86,
+      "active": 63,
+      "idle": 6,
+      "abnormal": 17,
+      "unknown": 0
+    },
+    {
+      "date": "2026-05-05",
+      "total": 86,
+      "active": 61,
+      "idle": 10,
+      "abnormal": 15,
+      "unknown": 0
+    }
+  ],
+  "scenes": [
+    {
+      "label": "路口",
+      "count": "18,304"
+    },
+    {
+      "label": "其他",
+      "count": "16,418"
+    },
+    {
+      "label": "里程",
+      "count": "14,123"
+    },
+    {
+      "label": "末端",
+      "count": "12,575"
+    },
+    {
+      "label": "抬杆",
+      "count": "10,995"
+    },
+    {
+      "label": "施工",
+      "count": "2,757"
+    },
+    {
+      "label": "动态目标专项场景",
+      "count": "1,925"
+    },
+    {
+      "label": "TLD",
+      "count": "1,365"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "采集数据看板导入器",
+  "id": "collection-data-dashboard-importer",
+  "api": "1.0.0",
+  "main": "code.js",
+  "documentAccess": "dynamic-page",
+  "editorType": [
+    "figma"
+  ]
+}

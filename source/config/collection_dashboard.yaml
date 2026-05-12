@@ -1,0 +1,30 @@
+schedule:
+  cron: "0 */2 * * *"
+  timezone: "Asia/Shanghai"
+  refresh_mode: "daily_snapshot"
+
+output:
+  mode: "local"
+  base_dir: "data/collection-dashboard"
+  update_latest: true
+
+sources:
+  include: "config/weekly_sources.yaml"
+
+metric_config: "config/collection_dashboard_metrics.yaml"
+
+vehicle_status:
+  enabled: true
+  active_overrides_notes: true
+  ignored_status_columns:
+    - "出车异常记录"
+    - "数采问题记录"
+  abnormal_keywords:
+    - "扣车"
+    - "维修"
+    - "事故"
+    - "拖车"
+    - "下发失败"
+    - "接车网卡"
+    - "车没电"
+    - "传感器异常"

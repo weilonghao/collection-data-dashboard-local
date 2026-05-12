@@ -1,0 +1,16 @@
+.idea/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+
+figma-import/node_modules/
+
+source/data/
+app/raw/
+app/*.log
+app/feishu_publish_result.json
+app/collection_data_dashboard.html
+app/collection_dashboard.json
+app/dashboard_overview.json
+app/sources_manifest.json
+

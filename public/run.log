@@ -1,0 +1,24 @@
+collection_data_dashboard workflow initialized
+{
+  "run_id": "2026-05-12T15-44-27",
+  "refresh_mode": "daily_snapshot",
+  "output_dir": "data/collection-dashboard/runs/2026-05-12T15-44-27",
+  "raw_dir": "data/collection-dashboard/runs/2026-05-12T15-44-27/raw",
+  "latest_dir": "data/collection-dashboard/latest",
+  "warehouse_dir": "data/collection-dashboard/warehouse",
+  "source_count": 8,
+  "enabled_source_count": 8,
+  "dashboard_source_count": 1,
+  "enabled_dashboard_source_count": 1,
+  "weekly_sources_config": "config\\weekly_sources.yaml",
+  "metric_config": "config\\collection_dashboard_metrics.yaml",
+  "cron": "0 */2 * * *",
+  "timezone": "Asia/Shanghai"
+}
+
+artifacts
+collection_dashboard.json: data/collection-dashboard/runs/2026-05-12T15-44-27/collection_dashboard.json
+collection_data_dashboard.html: data/collection-dashboard/runs/2026-05-12T15-44-27/collection_data_dashboard.html
+collection_data_dashboard_embed.html: data/collection-dashboard/runs/2026-05-12T15-44-27/collection_data_dashboard_embed.html
+collection_data_dashboard_iframe_preview.html: data/collection-dashboard/runs/2026-05-12T15-44-27/collection_data_dashboard_iframe_preview.html
+raw_dir: data/collection-dashboard/runs/2026-05-12T15-44-27/raw

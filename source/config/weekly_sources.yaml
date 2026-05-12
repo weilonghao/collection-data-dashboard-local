@@ -1,0 +1,95 @@
+schedule:
+  cron: "0 9 * * MON"
+  timezone: "Asia/Shanghai"
+  week_mode: "previous_week"
+
+output:
+  mode: "local"
+  base_dir: "data/weekly"
+  update_latest: true
+
+resource_metrics_config: "config/resource_weekly_metrics.yaml"
+
+sources:
+  - id: "source_001"
+    source_type: "collection_detail"
+    url: "https://r3c0qt6yjw.feishu.cn/wiki/Mi7Uw7QQDiJfX8kzmT5cVco6nqg?sheet=xyN0HU"
+    sheet_id: "xyN0HU"
+    department: "数采"
+    site: "数采"
+    source_role: "resource_schedule"
+    parser: "collection_detail"
+    enabled: true
+  - id: "source_002"
+    source_type: "collection_detail"
+    url: "https://r3c0qt6yjw.feishu.cn/wiki/Xty1w1Ik2ivVJpkcZBLc8YLKnze?sheet=HT8WDY"
+    sheet_id: "HT8WDY"
+    department: "数采"
+    site: "数采"
+    source_role: "resource_schedule"
+    parser: "collection_detail"
+    enabled: true
+  - id: "source_003"
+    source_type: "collection_detail"
+    url: "https://r3c0qt6yjw.feishu.cn/wiki/OxuBwQQoeiWR6xkcqHpcDOmonRq?sheet=HT8WDY"
+    sheet_id: "HT8WDY"
+    department: "数采"
+    site: "数采"
+    source_role: "resource_schedule"
+    parser: "collection_detail"
+    enabled: true
+  - id: "source_004"
+    source_type: "collection_detail"
+    url: "https://r3c0qt6yjw.feishu.cn/sheets/Ylv0skVCkhmGOYtQnIuc40oYnth?sheet=xyN0HU"
+    sheet_id: "xyN0HU"
+    department: "数采"
+    site: "数采"
+    source_role: "resource_schedule"
+    parser: "collection_detail"
+    enabled: true
+  - id: "source_005"
+    source_type: "collection_detail"
+    url: "https://r3c0qt6yjw.feishu.cn/wiki/LJVqwWY63iygSMkGzFYcpwGenug?sheet=jqEQQc"
+    sheet_id: "jqEQQc"
+    department: "数采"
+    site: "数采"
+    source_role: "resource_schedule"
+    parser: "collection_detail"
+    enabled: true
+  - id: "source_006"
+    source_type: "collection_detail"
+    url: "https://r3c0qt6yjw.feishu.cn/wiki/Oeifw8UAZi2SWHk0y0ncEIqPn5c?sheet=fa4701"
+    sheet_id: "fa4701"
+    department: "数采"
+    site: "数采"
+    source_role: "resource_schedule"
+    parser: "collection_detail"
+    enabled: true
+  - id: "human_yancheng_trial"
+    source_type: "human_driving_output"
+    url: "https://r3c0qt6yjw.feishu.cn/wiki/DbonwSOGgifxQykK82qcWqehntc?sheet=8ceb02"
+    sheet_id: "8ceb02"
+    department: "人驾"
+    site: "盐城"
+    source_role: "collection_output"
+    parser: "human_driving_output"
+    enabled: true
+  - id: "human_qingdao_schedule"
+    source_type: "human_driving_schedule"
+    url: "https://r3c0qt6yjw.feishu.cn/sheets/AnMys6S83hlBwptMG8PckGjrnJc?sheet=Z64G9X"
+    sheet_id: "Z64G9X"
+    department: "人驾"
+    site: "青岛"
+    source_role: "resource_schedule"
+    parser: "human_driving_schedule"
+    enabled: true
+
+queue_source:
+  enabled: false
+
+dashboard_sources:
+  - id: "neolix_collection_overview"
+    source_type: "dashboard_html"
+    url: "https://nds.data.neolix.cn/collection-dashboard/overview_live.html"
+    enabled: true
+    role: "production_quality_snapshot"
