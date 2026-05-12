@@ -6,10 +6,10 @@ $app = Join-Path $root "app"
 
 Push-Location $source
 try {
+    $anchorDate = Get-Date -Format "yyyy-MM-dd"
     python backend\jobs\generate_collection_dashboard.py `
         --config config\collection_dashboard.yaml `
-        --from-raw-dir ..\app\raw `
-        --anchor-date 2026-05-12
+        --anchor-date $anchorDate
 }
 finally {
     Pop-Location
