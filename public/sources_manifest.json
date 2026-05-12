@@ -8,7 +8,7 @@
     "parser": "human_driving_schedule",
     "sheet_id": "Z64G9X",
     "status": "success",
-    "local_path": "data/collection-dashboard/runs/2026-05-12T16-00-02/raw/human_qingdao_schedule.csv",
+    "local_path": "data/collection-dashboard/runs/2026-05-12T16-16-53/raw/human_qingdao_schedule.csv",
     "row_count": 481,
     "reuse_mode": "local_raw_snapshot"
   },
@@ -21,7 +21,7 @@
     "parser": "human_driving_output",
     "sheet_id": "8ceb02",
     "status": "success",
-    "local_path": "data/collection-dashboard/runs/2026-05-12T16-00-02/raw/human_yancheng_trial.csv",
+    "local_path": "data/collection-dashboard/runs/2026-05-12T16-16-53/raw/human_yancheng_trial.csv",
     "row_count": 800,
     "reuse_mode": "local_raw_snapshot"
   },
@@ -34,7 +34,7 @@
     "parser": "collection_detail",
     "sheet_id": "xyN0HU",
     "status": "success",
-    "local_path": "data/collection-dashboard/runs/2026-05-12T16-00-02/raw/source_001.csv",
+    "local_path": "data/collection-dashboard/runs/2026-05-12T16-16-53/raw/source_001.csv",
     "row_count": 2071,
     "reuse_mode": "local_raw_snapshot"
   },
@@ -47,7 +47,7 @@
     "parser": "collection_detail",
     "sheet_id": "HT8WDY",
     "status": "success",
-    "local_path": "data/collection-dashboard/runs/2026-05-12T16-00-02/raw/source_002.csv",
+    "local_path": "data/collection-dashboard/runs/2026-05-12T16-16-53/raw/source_002.csv",
     "row_count": 3070,
     "reuse_mode": "local_raw_snapshot"
   },
@@ -60,7 +60,7 @@
     "parser": "collection_detail",
     "sheet_id": "HT8WDY",
     "status": "success",
-    "local_path": "data/collection-dashboard/runs/2026-05-12T16-00-02/raw/source_003.csv",
+    "local_path": "data/collection-dashboard/runs/2026-05-12T16-16-53/raw/source_003.csv",
     "row_count": 4212,
     "reuse_mode": "local_raw_snapshot"
   },
@@ -73,7 +73,7 @@
     "parser": "collection_detail",
     "sheet_id": "xyN0HU",
     "status": "success",
-    "local_path": "data/collection-dashboard/runs/2026-05-12T16-00-02/raw/source_004.csv",
+    "local_path": "data/collection-dashboard/runs/2026-05-12T16-16-53/raw/source_004.csv",
     "row_count": 2042,
     "reuse_mode": "local_raw_snapshot"
   },
@@ -86,7 +86,7 @@
     "parser": "collection_detail",
     "sheet_id": "jqEQQc",
     "status": "success",
-    "local_path": "data/collection-dashboard/runs/2026-05-12T16-00-02/raw/source_005.csv",
+    "local_path": "data/collection-dashboard/runs/2026-05-12T16-16-53/raw/source_005.csv",
     "row_count": 3272,
     "reuse_mode": "local_raw_snapshot"
   },
@@ -99,7 +99,7 @@
     "parser": "collection_detail",
     "sheet_id": "fa4701",
     "status": "success",
-    "local_path": "data/collection-dashboard/runs/2026-05-12T16-00-02/raw/source_006.csv",
+    "local_path": "data/collection-dashboard/runs/2026-05-12T16-16-53/raw/source_006.csv",
     "row_count": 1843,
     "reuse_mode": "local_raw_snapshot"
   }
