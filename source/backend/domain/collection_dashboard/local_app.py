@@ -1442,7 +1442,7 @@ _LOCAL_APP_TEMPLATE = """<!DOCTYPE html>
     const maxValue = Math.max(...rows.map((item) => Number(item.value || 0)), 1);
     return rows.map((item) => {
       const width = Math.max(Number(item.value || 0) / maxValue * 100, 4);
-      return `<button class="visual-bar-row" type="button" data-detail-kind="${escapeHtml(item.kind)}" data-detail-label="${escapeHtml(item.label)}"><span class="visual-bar-label" title="${escapeHtml(item.label)}">${escapeHtml(item.label)}</span><span class="visual-bar-track"><span class="visual-bar-fill ${cls}" style="width:${width}%"></span></span><span class="visual-bar-value">${escapeHtml(item.value)}</span></button>`;
+      return `<button class="visual-bar-row" type="button" data-detail-kind="${escapeHtml(item.kind)}" data-detail-label="${escapeHtml(item.label)}"><span class="visual-bar-label" title="${escapeHtml(item.label)}">${escapeHtml(item.label)}</span><span class="visual-bar-track"><span class="visual-bar-fill ${cls}" style="display:block;width:${width}%"></span></span><span class="visual-bar-value">${escapeHtml(item.value)}</span></button>`;
     }).join('');
   }
 
