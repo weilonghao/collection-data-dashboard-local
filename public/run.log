@@ -1,9 +1,9 @@
 collection_data_dashboard workflow initialized
 {
-  "run_id": "2026-05-14T11-47-16",
+  "run_id": "2026-05-14T13-02-28",
   "refresh_mode": "daily_snapshot",
-  "output_dir": "data/collection-dashboard/runs/2026-05-14T11-47-16",
-  "raw_dir": "data/collection-dashboard/runs/2026-05-14T11-47-16/raw",
+  "output_dir": "data/collection-dashboard/runs/2026-05-14T13-02-28",
+  "raw_dir": "data/collection-dashboard/runs/2026-05-14T13-02-28/raw",
   "latest_dir": "data/collection-dashboard/latest",
   "warehouse_dir": "data/collection-dashboard/warehouse",
   "source_count": 8,
@@ -17,8 +17,8 @@ collection_data_dashboard workflow initialized
 }
 
 artifacts
-collection_dashboard.json: data/collection-dashboard/runs/2026-05-14T11-47-16/collection_dashboard.json
-collection_data_dashboard.html: data/collection-dashboard/runs/2026-05-14T11-47-16/collection_data_dashboard.html
-collection_data_dashboard_embed.html: data/collection-dashboard/runs/2026-05-14T11-47-16/collection_data_dashboard_embed.html
-collection_data_dashboard_iframe_preview.html: data/collection-dashboard/runs/2026-05-14T11-47-16/collection_data_dashboard_iframe_preview.html
-raw_dir: data/collection-dashboard/runs/2026-05-14T11-47-16/raw
+collection_dashboard.json: data/collection-dashboard/runs/2026-05-14T13-02-28/collection_dashboard.json
+collection_data_dashboard.html: data/collection-dashboard/runs/2026-05-14T13-02-28/collection_data_dashboard.html
+collection_data_dashboard_embed.html: data/collection-dashboard/runs/2026-05-14T13-02-28/collection_data_dashboard_embed.html
+collection_data_dashboard_iframe_preview.html: data/collection-dashboard/runs/2026-05-14T13-02-28/collection_data_dashboard_iframe_preview.html
+raw_dir: data/collection-dashboard/runs/2026-05-14T13-02-28/raw
