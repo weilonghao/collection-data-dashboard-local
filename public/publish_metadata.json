@@ -1,12 +1,12 @@
-﻿{
-    "status":  "ok",
-    "generated_at":  "2026-05-14 17:05:13",
-    "source":  "local_scheduled_task",
-    "files":  [
-                  "index.html",
-                  "collection_dashboard.json",
-                  "dashboard_overview.json",
-                  "sources_manifest.json",
-                  "run.log"
-              ]
+{
+  "status": "prepared",
+  "generated_at": "2026-05-14 17:37:54",
+  "source": "langgraph_dashboard_workflow",
+  "files": [
+    "index.html",
+    "collection_dashboard.json",
+    "dashboard_overview.json",
+    "sources_manifest.json",
+    "run.log"
+  ]
 }

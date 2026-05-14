@@ -1,24 +1,24 @@
 collection_data_dashboard workflow initialized
 {
-  "run_id": "2026-05-14T17-03-58",
+  "run_id": "2026-05-14T17-37-46",
   "refresh_mode": "daily_snapshot",
-  "output_dir": "data/collection-dashboard/runs/2026-05-14T17-03-58",
-  "raw_dir": "data/collection-dashboard/runs/2026-05-14T17-03-58/raw",
-  "latest_dir": "data/collection-dashboard/latest",
-  "warehouse_dir": "data/collection-dashboard/warehouse",
+  "output_dir": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-14T17-37-46",
+  "raw_dir": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-14T17-37-46/raw",
+  "latest_dir": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/latest",
+  "warehouse_dir": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/warehouse",
   "source_count": 8,
   "enabled_source_count": 8,
   "dashboard_source_count": 1,
   "enabled_dashboard_source_count": 1,
-  "weekly_sources_config": "config\\weekly_sources.yaml",
-  "metric_config": "config\\collection_dashboard_metrics.yaml",
+  "weekly_sources_config": "C:\\Users\\28349\\Desktop\\采集数据看板本地版\\langgraph_dashboard_workflow\\config\\weekly_sources.yaml",
+  "metric_config": "C:\\Users\\28349\\Desktop\\采集数据看板本地版\\langgraph_dashboard_workflow\\config\\collection_dashboard_metrics.yaml",
   "cron": "0 */2 * * *",
   "timezone": "Asia/Shanghai"
 }
 
 artifacts
-collection_dashboard.json: data/collection-dashboard/runs/2026-05-14T17-03-58/collection_dashboard.json
-collection_data_dashboard.html: data/collection-dashboard/runs/2026-05-14T17-03-58/collection_data_dashboard.html
-collection_data_dashboard_embed.html: data/collection-dashboard/runs/2026-05-14T17-03-58/collection_data_dashboard_embed.html
-collection_data_dashboard_iframe_preview.html: data/collection-dashboard/runs/2026-05-14T17-03-58/collection_data_dashboard_iframe_preview.html
-raw_dir: data/collection-dashboard/runs/2026-05-14T17-03-58/raw
+collection_dashboard.json: C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-14T17-37-46/collection_dashboard.json
+collection_data_dashboard.html: C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-14T17-37-46/collection_data_dashboard.html
+collection_data_dashboard_embed.html: C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-14T17-37-46/collection_data_dashboard_embed.html
+collection_data_dashboard_iframe_preview.html: C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-14T17-37-46/collection_data_dashboard_iframe_preview.html
+raw_dir: C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-14T17-37-46/raw
