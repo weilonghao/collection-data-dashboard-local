@@ -1,0 +1,4959 @@
+{
+  "kpis": {
+    "采集总次数": {
+      "label": "采集总次数",
+      "value": "80,019",
+      "sub": "2025-10-17 ~ 2026-05-14",
+      "allText": "采集总次数\n80,019\n2025-10-17 ~ 2026-05-14"
+    },
+    "已入库 BOS": {
+      "label": "已入库 BOS",
+      "value": "78,234",
+      "sub": "1,785 待入库",
+      "allText": "已入库 BOS\n78,234\n1,785 待入库"
+    },
+    "入库率": {
+      "label": "入库率",
+      "value": "97.8%",
+      "sub": "采集 -> BOS",
+      "allText": "入库率\n97.8%\n采集 -> BOS"
+    },
+    "Record 文件": {
+      "label": "Record 文件",
+      "value": "1,103,320",
+      "sub": "平均 14.1 个/次",
+      "allText": "Record 文件\n1,103,320\n平均 14.1 个/次"
+    },
+    "总里程": {
+      "label": "总里程",
+      "value": "185,817.51 km",
+      "sub": "平均 2.3 km/次",
+      "allText": "总里程\n185,817.51 km\n平均 2.3 km/次"
+    },
+    "车辆数": {
+      "label": "车辆数",
+      "value": "163",
+      "sub": "参与采集车辆",
+      "allText": "车辆数\n163\n参与采集车辆"
+    },
+    "城市数": {
+      "label": "城市数",
+      "value": "9",
+      "sub": "城市分布",
+      "allText": "城市数\n9\n城市分布"
+    },
+    "场景数": {
+      "label": "场景数",
+      "value": "255",
+      "sub": "一级场景 9",
+      "allText": "场景数\n255\n一级场景 9"
+    },
+    "质检通过率": {
+      "label": "质检通过率",
+      "value": "35.2%",
+      "sub": "356,840 / 1,013,369 clips",
+      "allText": "质检通过率\n35.2%\n356,840 / 1,013,369 clips"
+    }
+  },
+  "scene_summary": [
+    {
+      "value": "all",
+      "text": "全部场景 (80,019)",
+      "level": "all",
+      "count": "80,019"
+    },
+    {
+      "value": "p:路口",
+      "text": "[一级] 路口 (18,699)",
+      "level": "primary",
+      "count": "18,699"
+    },
+    {
+      "value": "p:其他",
+      "text": "[一级] 其他 (16,889)",
+      "level": "primary",
+      "count": "16,889"
+    },
+    {
+      "value": "p:里程",
+      "text": "[一级] 里程 (14,370)",
+      "level": "primary",
+      "count": "14,370"
+    },
+    {
+      "value": "p:末端",
+      "text": "[一级] 末端 (12,584)",
+      "level": "primary",
+      "count": "12,584"
+    },
+    {
+      "value": "p:抬杆",
+      "text": "[一级] 抬杆 (10,995)",
+      "level": "primary",
+      "count": "10,995"
+    },
+    {
+      "value": "p:施工",
+      "text": "[一级] 施工 (2,757)",
+      "level": "primary",
+      "count": "2,757"
+    },
+    {
+      "value": "p:动态目标专项场景",
+      "text": "[一级] 动态目标专项场景 (1,925)",
+      "level": "primary",
+      "count": "1,925"
+    },
+    {
+      "value": "p:TLD",
+      "text": "[一级] TLD (1,365)",
+      "level": "primary",
+      "count": "1,365"
+    },
+    {
+      "value": "p:专项任务",
+      "text": "[一级] 专项任务 (435)",
+      "level": "primary",
+      "count": "435"
+    },
+    {
+      "value": "末端",
+      "text": "末端 (11,526)",
+      "level": "secondary",
+      "count": "11,526"
+    },
+    {
+      "value": "nudge",
+      "text": "nudge (9,900)",
+      "level": "secondary",
+      "count": "9,900"
+    },
+    {
+      "value": "HD_路口",
+      "text": "HD_路口 (9,836)",
+      "level": "secondary",
+      "count": "9,836"
+    },
+    {
+      "value": "里程",
+      "text": "里程 (7,603)",
+      "level": "secondary",
+      "count": "7,603"
+    },
+    {
+      "value": "路口",
+      "text": "路口 (7,299)",
+      "level": "secondary",
+      "count": "7,299"
+    },
+    {
+      "value": "抬杆",
+      "text": "抬杆 (5,559)",
+      "level": "secondary",
+      "count": "5,559"
+    },
+    {
+      "value": "抬杠",
+      "text": "抬杠 (5,361)",
+      "level": "secondary",
+      "count": "5,361"
+    },
+    {
+      "value": "HD_里程",
+      "text": "HD_里程 (3,577)",
+      "level": "secondary",
+      "count": "3,577"
+    },
+    {
+      "value": "E2E_里程",
+      "text": "E2E_里程 (3,189)",
+      "level": "secondary",
+      "count": "3,189"
+    },
+    {
+      "value": "E2E_路口",
+      "text": "E2E_路口 (1,561)",
+      "level": "secondary",
+      "count": "1,561"
+    },
+    {
+      "value": "E2E_末端",
+      "text": "E2E_末端 (993)",
+      "level": "secondary",
+      "count": "993"
+    },
+    {
+      "value": "频繁变道",
+      "text": "频繁变道 (964)",
+      "level": "secondary",
+      "count": "964"
+    },
+    {
+      "value": "TLD hardcase（多场景）",
+      "text": "TLD hardcase（多场景） (958)",
+      "level": "secondary",
+      "count": "958"
+    },
+    {
+      "value": "施工&锥桶&水马",
+      "text": "施工&锥桶&水马 (692)",
+      "level": "secondary",
+      "count": "692"
+    },
+    {
+      "value": "异形车",
+      "text": "异形车 (616)",
+      "level": "secondary",
+      "count": "616"
+    },
+    {
+      "value": "常规道路三角架",
+      "text": "常规道路三角架 (601)",
+      "level": "secondary",
+      "count": "601"
+    },
+    {
+      "value": "锥桶",
+      "text": "锥桶 (598)",
+      "level": "secondary",
+      "count": "598"
+    },
+    {
+      "value": "繁忙路段",
+      "text": "繁忙路段 (568)",
+      "level": "secondary",
+      "count": "568"
+    },
+    {
+      "value": "非HD_路口",
+      "text": "非HD_路口 (567)",
+      "level": "secondary",
+      "count": "567"
+    },
+    {
+      "value": "三轮车_极近",
+      "text": "三轮车_极近 (483)",
+      "level": "secondary",
+      "count": "483"
+    },
+    {
+      "value": "大货车",
+      "text": "大货车 (481)",
+      "level": "secondary",
+      "count": "481"
+    },
+    {
+      "value": "异形三轮车",
+      "text": "异形三轮车 (413)",
+      "level": "secondary",
+      "count": "413"
+    },
+    {
+      "value": "导流带",
+      "text": "导流带 (378)",
+      "level": "secondary",
+      "count": "378"
+    },
+    {
+      "value": "异形小货车",
+      "text": "异形小货车 (361)",
+      "level": "secondary",
+      "count": "361"
+    },
+    {
+      "value": "连续路口",
+      "text": "连续路口 (342)",
+      "level": "secondary",
+      "count": "342"
+    },
+    {
+      "value": "常规道路三角架采集",
+      "text": "常规道路三角架采集 (299)",
+      "level": "secondary",
+      "count": "299"
+    },
+    {
+      "value": "机动灯+非机动车灯在同一高度，且为异色",
+      "text": "机动灯+非机动车灯在同一高度，且为异色 (275)",
+      "level": "secondary",
+      "count": "275"
+    },
+    {
+      "value": "工程车",
+      "text": "工程车 (259)",
+      "level": "secondary",
+      "count": "259"
+    },
+    {
+      "value": "无人快递车",
+      "text": "无人快递车 (247)",
+      "level": "secondary",
+      "count": "247"
+    },
+    {
+      "value": "施工50",
+      "text": "施工50 (228)",
+      "level": "secondary",
+      "count": "228"
+    },
+    {
+      "value": "夜晚行人自行车",
+      "text": "夜晚行人自行车 (220)",
+      "level": "secondary",
+      "count": "220"
+    },
+    {
+      "value": "极近红绿灯",
+      "text": "极近红绿灯 (215)",
+      "level": "secondary",
+      "count": "215"
+    },
+    {
+      "value": "机动灯+可亮的交通文字，且为异色",
+      "text": "机动灯+可亮的交通文字，且为异色 (205)",
+      "level": "secondary",
+      "count": "205"
+    },
+    {
+      "value": "非HD_里程",
+      "text": "非HD_里程 (181)",
+      "level": "secondary",
+      "count": "181"
+    },
+    {
+      "value": "极近目标",
+      "text": "极近目标 (174)",
+      "level": "secondary",
+      "count": "174"
+    },
+    {
+      "value": "宠物摆拍",
+      "text": "宠物摆拍 (169)",
+      "level": "secondary",
+      "count": "169"
+    },
+    {
+      "value": "路沿",
+      "text": "路沿 (161)",
+      "level": "secondary",
+      "count": "161"
+    },
+    {
+      "value": "减速带",
+      "text": "减速带 (145)",
+      "level": "secondary",
+      "count": "145"
+    },
+    {
+      "value": "高架桥",
+      "text": "高架桥 (136)",
+      "level": "secondary",
+      "count": "136"
+    },
+    {
+      "value": "加急TLD问题回灌",
+      "text": "加急TLD问题回灌 (130)",
+      "level": "secondary",
+      "count": "130"
+    },
+    {
+      "value": "其他近距静态障碍物",
+      "text": "其他近距静态障碍物 (130)",
+      "level": "secondary",
+      "count": "130"
+    },
+    {
+      "value": "明细",
+      "text": "明细 (114)",
+      "level": "secondary",
+      "count": "114"
+    },
+    {
+      "value": "试运营",
+      "text": "试运营 (111)",
+      "level": "secondary",
+      "count": "111"
+    },
+    {
+      "value": "水马",
+      "text": "水马 (107)",
+      "level": "secondary",
+      "count": "107"
+    },
+    {
+      "value": "只有文字灯亮起",
+      "text": "只有文字灯亮起 (106)",
+      "level": "secondary",
+      "count": "106"
+    },
+    {
+      "value": "FTX验证",
+      "text": "FTX验证 (101)",
+      "level": "secondary",
+      "count": "101"
+    },
+    {
+      "value": "三轮车_cut in",
+      "text": "三轮车_cut in (98)",
+      "level": "secondary",
+      "count": "98"
+    },
+    {
+      "value": "ISP优化专项",
+      "text": "ISP优化专项 (94)",
+      "level": "secondary",
+      "count": "94"
+    },
+    {
+      "value": "栅栏门",
+      "text": "栅栏门 (75)",
+      "level": "secondary",
+      "count": "75"
+    },
+    {
+      "value": "特定任务",
+      "text": "特定任务 (73)",
+      "level": "secondary",
+      "count": "73"
+    },
+    {
+      "value": "机动灯+非机动车灯在同一高度，且为同色",
+      "text": "机动灯+非机动车灯在同一高度，且为同色 (70)",
+      "level": "secondary",
+      "count": "70"
+    },
+    {
+      "value": "垃圾桶",
+      "text": "垃圾桶 (64)",
+      "level": "secondary",
+      "count": "64"
+    },
+    {
+      "value": "盐城试运营数据",
+      "text": "盐城试运营数据 (58)",
+      "level": "secondary",
+      "count": "58"
+    },
+    {
+      "value": "路沿+围栏",
+      "text": "路沿+围栏 (56)",
+      "level": "secondary",
+      "count": "56"
+    },
+    {
+      "value": "围栏",
+      "text": "围栏 (55)",
+      "level": "secondary",
+      "count": "55"
+    },
+    {
+      "value": "6个末端专项",
+      "text": "6个末端专项 (54)",
+      "level": "secondary",
+      "count": "54"
+    },
+    {
+      "value": "城阳区B路线",
+      "text": "城阳区B路线 (51)",
+      "level": "secondary",
+      "count": "51"
+    },
+    {
+      "value": "倒地自行车、电动车",
+      "text": "倒地自行车、电动车 (50)",
+      "level": "secondary",
+      "count": "50"
+    },
+    {
+      "value": "立柱",
+      "text": "立柱 (49)",
+      "level": "secondary",
+      "count": "49"
+    },
+    {
+      "value": "施工、锥桶、水马",
+      "text": "施工、锥桶、水马 (46)",
+      "level": "secondary",
+      "count": "46"
+    },
+    {
+      "value": "机动灯+非机动车灯不在同一高度，且为同色",
+      "text": "机动灯+非机动车灯不在同一高度，且为同色 (46)",
+      "level": "secondary",
+      "count": "46"
+    },
+    {
+      "value": "倒地电动车&自行车",
+      "text": "倒地电动车&自行车 (45)",
+      "level": "secondary",
+      "count": "45"
+    },
+    {
+      "value": "围栏+锥桶",
+      "text": "围栏+锥桶 (44)",
+      "level": "secondary",
+      "count": "44"
+    },
+    {
+      "value": "锥桶+桩",
+      "text": "锥桶+桩 (42)",
+      "level": "secondary",
+      "count": "42"
+    },
+    {
+      "value": "倒地自行车&电动车",
+      "text": "倒地自行车&电动车 (37)",
+      "level": "secondary",
+      "count": "37"
+    },
+    {
+      "value": "9右转 & 35掉头专项",
+      "text": "9右转 & 35掉头专项 (37)",
+      "level": "secondary",
+      "count": "37"
+    },
+    {
+      "value": "锥桶+路沿",
+      "text": "锥桶+路沿 (37)",
+      "level": "secondary",
+      "count": "37"
+    },
+    {
+      "value": "施工50,水马",
+      "text": "施工50,水马 (32)",
+      "level": "secondary",
+      "count": "32"
+    },
+    {
+      "value": "特定路线测试问题",
+      "text": "特定路线测试问题 (32)",
+      "level": "secondary",
+      "count": "32"
+    },
+    {
+      "value": "EMX验证",
+      "text": "EMX验证 (32)",
+      "level": "secondary",
+      "count": "32"
+    },
+    {
+      "value": "红绿灯同时启亮路口",
+      "text": "红绿灯同时启亮路口 (32)",
+      "level": "secondary",
+      "count": "32"
+    },
+    {
+      "value": "路沿+桩",
+      "text": "路沿+桩 (32)",
+      "level": "secondary",
+      "count": "32"
+    },
+    {
+      "value": "夜",
+      "text": "夜 (26)",
+      "level": "secondary",
+      "count": "26"
+    },
+    {
+      "value": "施工结束（无效）",
+      "text": "施工结束（无效） (24)",
+      "level": "secondary",
+      "count": "24"
+    },
+    {
+      "value": "PNC 1kmin record",
+      "text": "PNC 1kmin record (21)",
+      "level": "secondary",
+      "count": "21"
+    },
+    {
+      "value": "黄岛西海岸亚朵采集需求",
+      "text": "黄岛西海岸亚朵采集需求 (21)",
+      "level": "secondary",
+      "count": "21"
+    },
+    {
+      "value": "坑洞",
+      "text": "坑洞 (18)",
+      "level": "secondary",
+      "count": "18"
+    },
+    {
+      "value": "小动物摆拍",
+      "text": "小动物摆拍 (18)",
+      "level": "secondary",
+      "count": "18"
+    },
+    {
+      "value": "Sheet2",
+      "text": "Sheet2 (18)",
+      "level": "secondary",
+      "count": "18"
+    },
+    {
+      "value": "异型车",
+      "text": "异型车 (18)",
+      "level": "secondary",
+      "count": "18"
+    },
+    {
+      "value": "只有非机动车灯亮起",
+      "text": "只有非机动车灯亮起 (17)",
+      "level": "secondary",
+      "count": "17"
+    },
+    {
+      "value": "camera组同步专项",
+      "text": "camera组同步专项 (16)",
+      "level": "secondary",
+      "count": "16"
+    },
+    {
+      "value": "锥桶,水马",
+      "text": "锥桶,水马 (14)",
+      "level": "secondary",
+      "count": "14"
+    },
+    {
+      "value": "TLD HARDCASE",
+      "text": "TLD HARDCASE (14)",
+      "level": "secondary",
+      "count": "14"
+    },
+    {
+      "value": "ISP 优化专项",
+      "text": "ISP 优化专项 (13)",
+      "level": "secondary",
+      "count": "13"
+    },
+    {
+      "value": "晒粮",
+      "text": "晒粮 (12)",
+      "level": "secondary",
+      "count": "12"
+    },
+    {
+      "value": "售后标定数采需求（01.13 ）",
+      "text": "售后标定数采需求（01.13 ） (12)",
+      "level": "secondary",
+      "count": "12"
+    },
+    {
+      "value": "施工50,锥桶",
+      "text": "施工50,锥桶 (11)",
+      "level": "secondary",
+      "count": "11"
+    },
+    {
+      "value": "文化大厦施工&锥桶&水马",
+      "text": "文化大厦施工&锥桶&水马 (11)",
+      "level": "secondary",
+      "count": "11"
+    },
+    {
+      "value": "误识别频闪红绿灯数据采集",
+      "text": "误识别频闪红绿灯数据采集 (10)",
+      "level": "secondary",
+      "count": "10"
+    },
+    {
+      "value": "异形车+异形三轮车",
+      "text": "异形车+异形三轮车 (10)",
+      "level": "secondary",
+      "count": "10"
+    },
+    {
+      "value": "只有非机动车灯亮起+黑灯",
+      "text": "只有非机动车灯亮起+黑灯 (10)",
+      "level": "secondary",
+      "count": "10"
+    },
+    {
+      "value": "黄岛末端定位",
+      "text": "黄岛末端定位 (8)",
+      "level": "secondary",
+      "count": "8"
+    },
+    {
+      "value": "指定十字路口",
+      "text": "指定十字路口 (7)",
+      "level": "secondary",
+      "count": "7"
+    },
+    {
+      "value": "晴",
+      "text": "晴 (7)",
+      "level": "secondary",
+      "count": "7"
+    },
+    {
+      "value": "黄闪灯",
+      "text": "黄闪灯 (6)",
+      "level": "secondary",
+      "count": "6"
+    },
+    {
+      "value": "城中村宠物采集",
+      "text": "城中村宠物采集 (5)",
+      "level": "secondary",
+      "count": "5"
+    },
+    {
+      "value": "无人车+异形车",
+      "text": "无人车+异形车 (5)",
+      "level": "secondary",
+      "count": "5"
+    },
+    {
+      "value": "锥桶+围栏+立柱",
+      "text": "锥桶+围栏+立柱 (5)",
+      "level": "secondary",
+      "count": "5"
+    },
+    {
+      "value": "其他近距静态障碍物+路沿",
+      "text": "其他近距静态障碍物+路沿 (5)",
+      "level": "secondary",
+      "count": "5"
+    },
+    {
+      "value": "围栏＋立柱",
+      "text": "围栏＋立柱 (5)",
+      "level": "secondary",
+      "count": "5"
+    },
+    {
+      "value": "其他近距静态障碍物+锥桶",
+      "text": "其他近距静态障碍物+锥桶 (5)",
+      "level": "secondary",
+      "count": "5"
+    },
+    {
+      "value": "无人车&物流车",
+      "text": "无人车&物流车 (4)",
+      "level": "secondary",
+      "count": "4"
+    },
+    {
+      "value": "黄岛末端补采集",
+      "text": "黄岛末端补采集 (3)",
+      "level": "secondary",
+      "count": "3"
+    },
+    {
+      "value": "停车场摆拍_0.5m行人",
+      "text": "停车场摆拍_0.5m行人 (3)",
+      "level": "secondary",
+      "count": "3"
+    },
+    {
+      "value": "锥通+铁柱",
+      "text": "锥通+铁柱 (3)",
+      "level": "secondary",
+      "count": "3"
+    },
+    {
+      "value": "铁柱",
+      "text": "铁柱 (3)",
+      "level": "secondary",
+      "count": "3"
+    },
+    {
+      "value": "摆拍_停车场0.5m行人",
+      "text": "摆拍_停车场0.5m行人 (2)",
+      "level": "secondary",
+      "count": "2"
+    },
+    {
+      "value": "E2E里程",
+      "text": "E2E里程 (2)",
+      "level": "secondary",
+      "count": "2"
+    },
+    {
+      "value": "E4E_路口",
+      "text": "E4E_路口 (2)",
+      "level": "secondary",
+      "count": "2"
+    },
+    {
+      "value": "施工50&锥桶&水马",
+      "text": "施工50&锥桶&水马 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&35掉头专项",
+      "text": "9右转&35掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&36掉头专项",
+      "text": "9右转&36掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&37掉头专项",
+      "text": "9右转&37掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&38掉头专项",
+      "text": "9右转&38掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&39掉头专项",
+      "text": "9右转&39掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&40掉头专项",
+      "text": "9右转&40掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&41掉头专项",
+      "text": "9右转&41掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&42掉头专项",
+      "text": "9右转&42掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&43掉头专项",
+      "text": "9右转&43掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&44掉头专项",
+      "text": "9右转&44掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&45掉头专项",
+      "text": "9右转&45掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&46掉头专项",
+      "text": "9右转&46掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&47掉头专项",
+      "text": "9右转&47掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&48掉头专项",
+      "text": "9右转&48掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&49掉头专项",
+      "text": "9右转&49掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&50掉头专项",
+      "text": "9右转&50掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&51掉头专项",
+      "text": "9右转&51掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&52掉头专项",
+      "text": "9右转&52掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&53掉头专项",
+      "text": "9右转&53掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&54掉头专项",
+      "text": "9右转&54掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&55掉头专项",
+      "text": "9右转&55掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&56掉头专项",
+      "text": "9右转&56掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&57掉头专项",
+      "text": "9右转&57掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&58掉头专项",
+      "text": "9右转&58掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&59掉头专项",
+      "text": "9右转&59掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&60掉头专项",
+      "text": "9右转&60掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&61掉头专项",
+      "text": "9右转&61掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&62掉头专项",
+      "text": "9右转&62掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&63掉头专项",
+      "text": "9右转&63掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&64掉头专项",
+      "text": "9右转&64掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&65掉头专项",
+      "text": "9右转&65掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&66掉头专项",
+      "text": "9右转&66掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&67掉头专项",
+      "text": "9右转&67掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&68掉头专项",
+      "text": "9右转&68掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&69掉头专项",
+      "text": "9右转&69掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&70掉头专项",
+      "text": "9右转&70掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&71掉头专项",
+      "text": "9右转&71掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&72掉头专项",
+      "text": "9右转&72掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&73掉头专项",
+      "text": "9右转&73掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&74掉头专项",
+      "text": "9右转&74掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&75掉头专项",
+      "text": "9右转&75掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&76掉头专项",
+      "text": "9右转&76掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&77掉头专项",
+      "text": "9右转&77掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&78掉头专项",
+      "text": "9右转&78掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&79掉头专项",
+      "text": "9右转&79掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&80掉头专项",
+      "text": "9右转&80掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&81掉头专项",
+      "text": "9右转&81掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&82掉头专项",
+      "text": "9右转&82掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&83掉头专项",
+      "text": "9右转&83掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&84掉头专项",
+      "text": "9右转&84掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&85掉头专项",
+      "text": "9右转&85掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&86掉头专项",
+      "text": "9右转&86掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&87掉头专项",
+      "text": "9右转&87掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&88掉头专项",
+      "text": "9右转&88掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&89掉头专项",
+      "text": "9右转&89掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&90掉头专项",
+      "text": "9右转&90掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&91掉头专项",
+      "text": "9右转&91掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&92掉头专项",
+      "text": "9右转&92掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&93掉头专项",
+      "text": "9右转&93掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&94掉头专项",
+      "text": "9右转&94掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&95掉头专项",
+      "text": "9右转&95掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&96掉头专项",
+      "text": "9右转&96掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&97掉头专项",
+      "text": "9右转&97掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&98掉头专项",
+      "text": "9右转&98掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&99掉头专项",
+      "text": "9右转&99掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&100掉头专项",
+      "text": "9右转&100掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&101掉头专项",
+      "text": "9右转&101掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&102掉头专项",
+      "text": "9右转&102掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&103掉头专项",
+      "text": "9右转&103掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&104掉头专项",
+      "text": "9右转&104掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&105掉头专项",
+      "text": "9右转&105掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&106掉头专项",
+      "text": "9右转&106掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&107掉头专项",
+      "text": "9右转&107掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&108掉头专项",
+      "text": "9右转&108掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&109掉头专项",
+      "text": "9右转&109掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&110掉头专项",
+      "text": "9右转&110掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&111掉头专项",
+      "text": "9右转&111掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&112掉头专项",
+      "text": "9右转&112掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&113掉头专项",
+      "text": "9右转&113掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&114掉头专项",
+      "text": "9右转&114掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&115掉头专项",
+      "text": "9右转&115掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&116掉头专项",
+      "text": "9右转&116掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&117掉头专项",
+      "text": "9右转&117掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&118掉头专项",
+      "text": "9右转&118掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&119掉头专项",
+      "text": "9右转&119掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&120掉头专项",
+      "text": "9右转&120掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&121掉头专项",
+      "text": "9右转&121掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&122掉头专项",
+      "text": "9右转&122掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&123掉头专项",
+      "text": "9右转&123掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&124掉头专项",
+      "text": "9右转&124掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&125掉头专项",
+      "text": "9右转&125掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&126掉头专项",
+      "text": "9右转&126掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&127掉头专项",
+      "text": "9右转&127掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&128掉头专项",
+      "text": "9右转&128掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&129掉头专项",
+      "text": "9右转&129掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&130掉头专项",
+      "text": "9右转&130掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&131掉头专项",
+      "text": "9右转&131掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&132掉头专项",
+      "text": "9右转&132掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&133掉头专项",
+      "text": "9右转&133掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&134掉头专项",
+      "text": "9右转&134掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&135掉头专项",
+      "text": "9右转&135掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&136掉头专项",
+      "text": "9右转&136掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&137掉头专项",
+      "text": "9右转&137掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&138掉头专项",
+      "text": "9右转&138掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&139掉头专项",
+      "text": "9右转&139掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&140掉头专项",
+      "text": "9右转&140掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&141掉头专项",
+      "text": "9右转&141掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&142掉头专项",
+      "text": "9右转&142掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&143掉头专项",
+      "text": "9右转&143掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&144掉头专项",
+      "text": "9右转&144掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&145掉头专项",
+      "text": "9右转&145掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&146掉头专项",
+      "text": "9右转&146掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&147掉头专项",
+      "text": "9右转&147掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&148掉头专项",
+      "text": "9右转&148掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&149掉头专项",
+      "text": "9右转&149掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&150掉头专项",
+      "text": "9右转&150掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&151掉头专项",
+      "text": "9右转&151掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&152掉头专项",
+      "text": "9右转&152掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&153掉头专项",
+      "text": "9右转&153掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&154掉头专项",
+      "text": "9右转&154掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&155掉头专项",
+      "text": "9右转&155掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&156掉头专项",
+      "text": "9右转&156掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&157掉头专项",
+      "text": "9右转&157掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&158掉头专项",
+      "text": "9右转&158掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&159掉头专项",
+      "text": "9右转&159掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&160掉头专项",
+      "text": "9右转&160掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&161掉头专项",
+      "text": "9右转&161掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&162掉头专项",
+      "text": "9右转&162掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&163掉头专项",
+      "text": "9右转&163掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&164掉头专项",
+      "text": "9右转&164掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&165掉头专项",
+      "text": "9右转&165掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&166掉头专项",
+      "text": "9右转&166掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&167掉头专项",
+      "text": "9右转&167掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&168掉头专项",
+      "text": "9右转&168掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&169掉头专项",
+      "text": "9右转&169掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&170掉头专项",
+      "text": "9右转&170掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&171掉头专项",
+      "text": "9右转&171掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&172掉头专项",
+      "text": "9右转&172掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&173掉头专项",
+      "text": "9右转&173掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&174掉头专项",
+      "text": "9右转&174掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "9右转&175掉头专项",
+      "text": "9右转&175掉头专项 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "E2E路口",
+      "text": "E2E路口 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "E3E_里程",
+      "text": "E3E_里程 (1)",
+      "level": "secondary",
+      "count": "1"
+    },
+    {
+      "value": "E3E_路口",
+      "text": "E3E_路口 (1)",
+      "level": "secondary",
+      "count": "1"
+    }
+  ],
+  "primary_scene_summary": [
+    {
+      "primary_scene": "路口",
+      "采集": "18,699",
+      "入库": "18,293",
+      "Records": "364,112",
+      "入库率": "97.8288%",
+      "里程": "65,976.43",
+      "车辆数": "77"
+    },
+    {
+      "primary_scene": "其他",
+      "采集": "16,889",
+      "入库": "16,125",
+      "Records": "102,830",
+      "入库率": "95.4763%",
+      "里程": "10,658.27",
+      "车辆数": "106"
+    },
+    {
+      "primary_scene": "里程",
+      "采集": "14,370",
+      "入库": "14,010",
+      "Records": "437,933",
+      "入库率": "97.4948%",
+      "里程": "89,075.87",
+      "车辆数": "120"
+    },
+    {
+      "primary_scene": "末端",
+      "采集": "12,584",
+      "入库": "12,438",
+      "Records": "67,535",
+      "入库率": "98.8398%",
+      "里程": "5,725.55",
+      "车辆数": "69"
+    },
+    {
+      "primary_scene": "抬杆",
+      "采集": "10,995",
+      "入库": "10,925",
+      "Records": "54,408",
+      "入库率": "99.3633%",
+      "里程": "3,695.88",
+      "车辆数": "19"
+    },
+    {
+      "primary_scene": "施工",
+      "采集": "2,757",
+      "入库": "2,741",
+      "Records": "12,950",
+      "入库率": "99.4197%",
+      "里程": "1,082.92",
+      "车辆数": "57"
+    },
+    {
+      "primary_scene": "动态目标专项场景",
+      "采集": "1,925",
+      "入库": "1,920",
+      "Records": "28,668",
+      "入库率": "99.7403%",
+      "里程": "2,498.53",
+      "车辆数": "62"
+    },
+    {
+      "primary_scene": "TLD",
+      "采集": "1,365",
+      "入库": "1,349",
+      "Records": "20,440",
+      "入库率": "98.8278%",
+      "里程": "4,279.37",
+      "车辆数": "39"
+    },
+    {
+      "primary_scene": "专项任务",
+      "采集": "435",
+      "入库": "433",
+      "Records": "14,444",
+      "入库率": "99.5402%",
+      "里程": "2,824.71",
+      "车辆数": "29"
+    }
+  ],
+  "city_summary": [
+    {
+      "city": "青岛",
+      "采集": "23,918",
+      "入库": "22,863",
+      "Records": "355,145",
+      "入库率": "95.5891%",
+      "里程": "55,961.98",
+      "车辆数": "92"
+    },
+    {
+      "city": "未知",
+      "采集": "13,013",
+      "入库": "12,778",
+      "Records": "81,895",
+      "入库率": "98.1941%",
+      "里程": "8,675.27",
+      "车辆数": "81"
+    },
+    {
+      "city": "青岛&临沂",
+      "采集": "12,635",
+      "入库": "12,356",
+      "Records": "200,519",
+      "入库率": "97.7918%",
+      "里程": "29,704.50",
+      "车辆数": "29"
+    },
+    {
+      "city": "临沂",
+      "采集": "9,960",
+      "入库": "9,912",
+      "Records": "124,649",
+      "入库率": "99.5181%",
+      "里程": "19,114.18",
+      "车辆数": "34"
+    },
+    {
+      "city": "日照",
+      "采集": "6,251",
+      "入库": "6,229",
+      "Records": "118,140",
+      "入库率": "99.6481%",
+      "里程": "28,440.93",
+      "车辆数": "17"
+    },
+    {
+      "city": "青岛黄岛区",
+      "采集": "5,823",
+      "入库": "5,785",
+      "Records": "76,467",
+      "入库率": "99.3474%",
+      "里程": "14,273.14",
+      "车辆数": "29"
+    },
+    {
+      "city": "潍坊",
+      "采集": "3,330",
+      "入库": "3,322",
+      "Records": "61,977",
+      "入库率": "99.7598%",
+      "里程": "14,724.35",
+      "车辆数": "11"
+    },
+    {
+      "city": "邯郸",
+      "采集": "2,784",
+      "入库": "2,771",
+      "Records": "44,782",
+      "入库率": "99.533%",
+      "里程": "8,784.48",
+      "车辆数": "10"
+    },
+    {
+      "city": "盐城",
+      "采集": "2,305",
+      "入库": "2,218",
+      "Records": "39,746",
+      "入库率": "96.2256%",
+      "里程": "6,138.67",
+      "车辆数": "64"
+    }
+  ],
+  "vehicle_collection_summary": [
+    {
+      "车辆": "X6S5605",
+      "城市": "未知",
+      "场景": "末端",
+      "采集": "1,597",
+      "入库": "1,553",
+      "Records": "22,889",
+      "入库率": "97%",
+      "里程": "3,855.84"
+    },
+    {
+      "车辆": "X6S5630",
+      "城市": "未知",
+      "场景": "末端",
+      "采集": "1,570",
+      "入库": "1,560",
+      "Records": "26,162",
+      "入库率": "99%",
+      "里程": "4,906.99"
+    },
+    {
+      "车辆": "X3S1060",
+      "城市": "未知",
+      "场景": "机动灯+可亮的交通文字，且为异色",
+      "采集": "1,534",
+      "入库": "1,525",
+      "Records": "10,083",
+      "入库率": "99%",
+      "里程": "578.98"
+    },
+    {
+      "车辆": "X6S5867",
+      "城市": "未知",
+      "场景": "明细",
+      "采集": "1,479",
+      "入库": "1,473",
+      "Records": "7,686",
+      "入库率": "100%",
+      "里程": "746.01"
+    },
+    {
+      "车辆": "X6S5865",
+      "城市": "临沂",
+      "场景": "末端",
+      "采集": "1,449",
+      "入库": "1,436",
+      "Records": "7,134",
+      "入库率": "99%",
+      "里程": "649.75"
+    },
+    {
+      "车辆": "X6S5869",
+      "城市": "未知",
+      "场景": "围栏",
+      "采集": "1,437",
+      "入库": "1,435",
+      "Records": "7,990",
+      "入库率": "100%",
+      "里程": "747.46"
+    },
+    {
+      "车辆": "X6S5604",
+      "城市": "未知",
+      "场景": "末端",
+      "采集": "1,428",
+      "入库": "1,404",
+      "Records": "25,436",
+      "入库率": "98%",
+      "里程": "4,788.72"
+    },
+    {
+      "车辆": "X6S5864",
+      "城市": "未知",
+      "场景": "机动灯+非机动车灯在同一高度，且为异色",
+      "采集": "1,395",
+      "入库": "1,294",
+      "Records": "8,128",
+      "入库率": "93%",
+      "里程": "702.65"
+    },
+    {
+      "车辆": "X6S5626",
+      "城市": "日照",
+      "场景": "异形车",
+      "采集": "1,375",
+      "入库": "1,351",
+      "Records": "21,236",
+      "入库率": "98%",
+      "里程": "3,374.67"
+    },
+    {
+      "车辆": "X3S1063",
+      "城市": "未知",
+      "场景": "机动灯+可亮的交通文字，且为异色",
+      "采集": "1,361",
+      "入库": "1,351",
+      "Records": "10,267",
+      "入库率": "99%",
+      "里程": "717.51"
+    },
+    {
+      "车辆": "X6S5622",
+      "城市": "青岛&临沂",
+      "场景": "E4E_路口",
+      "采集": "1,353",
+      "入库": "1,342",
+      "Records": "23,826",
+      "入库率": "99%",
+      "里程": "4,057.90"
+    },
+    {
+      "车辆": "X3S1064",
+      "城市": "未知",
+      "场景": "异形小货车",
+      "采集": "1,351",
+      "入库": "1,350",
+      "Records": "8,161",
+      "入库率": "100%",
+      "里程": "435.68"
+    },
+    {
+      "车辆": "X6S5610",
+      "城市": "未知",
+      "场景": "末端",
+      "采集": "1,314",
+      "入库": "1,302",
+      "Records": "18,473",
+      "入库率": "99%",
+      "里程": "2,898.62"
+    },
+    {
+      "车辆": "X6S5612",
+      "城市": "未知",
+      "场景": "末端",
+      "采集": "1,298",
+      "入库": "1,289",
+      "Records": "20,540",
+      "入库率": "99%",
+      "里程": "3,759.05"
+    },
+    {
+      "车辆": "X3S1062",
+      "城市": "未知",
+      "场景": "减速带",
+      "采集": "1,229",
+      "入库": "1,214",
+      "Records": "7,588",
+      "入库率": "99%",
+      "里程": "556.28"
+    },
+    {
+      "车辆": "X6S5614",
+      "城市": "临沂",
+      "场景": "异形车",
+      "采集": "1,223",
+      "入库": "1,216",
+      "Records": "19,048",
+      "入库率": "99%",
+      "里程": "2,849.51"
+    },
+    {
+      "车辆": "X3S1061",
+      "城市": "未知",
+      "场景": "机动灯+可亮的交通文字，且为异色",
+      "采集": "1,221",
+      "入库": "1,213",
+      "Records": "7,893",
+      "入库率": "99%",
+      "里程": "575.70"
+    },
+    {
+      "车辆": "X6S5606",
+      "城市": "青岛&临沂",
+      "场景": "E3E_里程",
+      "采集": "1,209",
+      "入库": "1,201",
+      "Records": "15,360",
+      "入库率": "99%",
+      "里程": "2,738.73"
+    },
+    {
+      "车辆": "X3S0196",
+      "城市": "邯郸",
+      "场景": "异形车",
+      "采集": "1,197",
+      "入库": "1,158",
+      "Records": "18,238",
+      "入库率": "97%",
+      "里程": "3,022"
+    },
+    {
+      "车辆": "X3S1065",
+      "城市": "未知",
+      "场景": "异形小货车",
+      "采集": "1,192",
+      "入库": "1,187",
+      "Records": "8,504",
+      "入库率": "100%",
+      "里程": "574.17"
+    },
+    {
+      "车辆": "X6S5620",
+      "城市": "青岛黄岛区",
+      "场景": "异型车",
+      "采集": "1,185",
+      "入库": "1,164",
+      "Records": "22,190",
+      "入库率": "98%",
+      "里程": "4,314.62"
+    },
+    {
+      "车辆": "X3S0199",
+      "城市": "邯郸",
+      "场景": "异形车",
+      "采集": "1,181",
+      "入库": "1,157",
+      "Records": "13,706",
+      "入库率": "98%",
+      "里程": "2,030.22"
+    },
+    {
+      "车辆": "X3S1059",
+      "城市": "未知",
+      "场景": "机动灯+可亮的交通文字，且为异色",
+      "采集": "1,154",
+      "入库": "1,145",
+      "Records": "10,040",
+      "入库率": "99%",
+      "里程": "491.96"
+    },
+    {
+      "车辆": "X6S5861",
+      "城市": "未知",
+      "场景": "夜",
+      "采集": "1,115",
+      "入库": "1,114",
+      "Records": "8,160",
+      "入库率": "100%",
+      "里程": "621.48"
+    },
+    {
+      "车辆": "X6S5627",
+      "城市": "未知",
+      "场景": "末端",
+      "采集": "1,113",
+      "入库": "1,097",
+      "Records": "19,567",
+      "入库率": "99%",
+      "里程": "3,250.26"
+    },
+    {
+      "车辆": "X6S5629",
+      "城市": "未知",
+      "场景": "频繁变道",
+      "采集": "1,107",
+      "入库": "1,100",
+      "Records": "14,712",
+      "入库率": "99%",
+      "里程": "2,705.03"
+    },
+    {
+      "车辆": "X6S5628",
+      "城市": "未知",
+      "场景": "频繁变道",
+      "采集": "1,085",
+      "入库": "1,082",
+      "Records": "16,745",
+      "入库率": "100%",
+      "里程": "2,766.31"
+    },
+    {
+      "车辆": "X6S5860",
+      "城市": "未知",
+      "场景": "机动灯+非机动车灯在同一高度，且为异色",
+      "采集": "1,054",
+      "入库": "1,051",
+      "Records": "8,253",
+      "入库率": "100%",
+      "里程": "774.18"
+    },
+    {
+      "车辆": "X6S5625",
+      "城市": "青岛",
+      "场景": "城阳区B路线",
+      "采集": "1,051",
+      "入库": "1,048",
+      "Records": "15,009",
+      "入库率": "100%",
+      "里程": "2,778.97"
+    },
+    {
+      "车辆": "X6S5866",
+      "城市": "未知",
+      "场景": "导流带",
+      "采集": "1,031",
+      "入库": "1,028",
+      "Records": "5,240",
+      "入库率": "100%",
+      "里程": "450.62"
+    },
+    {
+      "车辆": "X3S0201",
+      "城市": "临沂",
+      "场景": "HD_路口",
+      "采集": "1,025",
+      "入库": "1,024",
+      "Records": "16,015",
+      "入库率": "100%",
+      "里程": "2,361.68"
+    },
+    {
+      "车辆": "X6S5631",
+      "城市": "未知",
+      "场景": "末端",
+      "采集": "1,002",
+      "入库": "1,001",
+      "Records": "18,495",
+      "入库率": "100%",
+      "里程": "4,185.11"
+    },
+    {
+      "车辆": "X6S5616",
+      "城市": "临沂",
+      "场景": "异形车",
+      "采集": "994",
+      "入库": "993",
+      "Records": "17,252",
+      "入库率": "100%",
+      "里程": "3,079.29"
+    },
+    {
+      "车辆": "X3S0202",
+      "城市": "临沂",
+      "场景": "HD_路口",
+      "采集": "993",
+      "入库": "982",
+      "Records": "14,073",
+      "入库率": "99%",
+      "里程": "2,080.83"
+    },
+    {
+      "车辆": "X6S5617",
+      "城市": "临沂",
+      "场景": "异形车",
+      "采集": "983",
+      "入库": "968",
+      "Records": "13,714",
+      "入库率": "98%",
+      "里程": "2,911.41"
+    },
+    {
+      "车辆": "X3S0198",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "954",
+      "入库": "944",
+      "Records": "17,369",
+      "入库率": "99%",
+      "里程": "3,001.25"
+    },
+    {
+      "车辆": "X6S5632",
+      "城市": "未知",
+      "场景": "机动灯+非机动车灯在同一高度，且为同色",
+      "采集": "939",
+      "入库": "936",
+      "Records": "14,616",
+      "入库率": "100%",
+      "里程": "3,077.15"
+    },
+    {
+      "车辆": "X3S0195",
+      "城市": "未知",
+      "场景": "频繁变道",
+      "采集": "930",
+      "入库": "913",
+      "Records": "12,791",
+      "入库率": "98%",
+      "里程": "2,343.01"
+    },
+    {
+      "车辆": "X6S5635",
+      "城市": "青岛",
+      "场景": "城阳区B路线",
+      "采集": "930",
+      "入库": "930",
+      "Records": "16,096",
+      "入库率": "100%",
+      "里程": "3,648.95"
+    },
+    {
+      "车辆": "X6S5619",
+      "城市": "临沂",
+      "场景": "异形车",
+      "采集": "902",
+      "入库": "900",
+      "Records": "14,169",
+      "入库率": "100%",
+      "里程": "3,205.24"
+    },
+    {
+      "车辆": "X3S0197",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "896",
+      "入库": "878",
+      "Records": "14,076",
+      "入库率": "98%",
+      "里程": "2,340.41"
+    },
+    {
+      "车辆": "X6S5621",
+      "城市": "未知",
+      "场景": "末端",
+      "采集": "894",
+      "入库": "885",
+      "Records": "15,652",
+      "入库率": "99%",
+      "里程": "2,955.07"
+    },
+    {
+      "车辆": "X6S5608",
+      "城市": "未知",
+      "场景": "末端",
+      "采集": "888",
+      "入库": "870",
+      "Records": "19,041",
+      "入库率": "98%",
+      "里程": "3,437.54"
+    },
+    {
+      "车辆": "X6S5613",
+      "城市": "未知",
+      "场景": "末端",
+      "采集": "880",
+      "入库": "870",
+      "Records": "19,217",
+      "入库率": "99%",
+      "里程": "3,734.26"
+    },
+    {
+      "车辆": "X6S5618",
+      "城市": "临沂",
+      "场景": "异形车",
+      "采集": "870",
+      "入库": "868",
+      "Records": "14,029",
+      "入库率": "100%",
+      "里程": "3,316.80"
+    },
+    {
+      "车辆": "X6S5862",
+      "城市": "未知",
+      "场景": "末端",
+      "采集": "867",
+      "入库": "866",
+      "Records": "5,260",
+      "入库率": "100%",
+      "里程": "445.18"
+    },
+    {
+      "车辆": "X6S5637",
+      "城市": "青岛黄岛区",
+      "场景": "异型车",
+      "采集": "865",
+      "入库": "862",
+      "Records": "12,308",
+      "入库率": "100%",
+      "里程": "2,690.94"
+    },
+    {
+      "车辆": "X3S1067",
+      "城市": "临沂",
+      "场景": "末端",
+      "采集": "839",
+      "入库": "837",
+      "Records": "4,565",
+      "入库率": "100%",
+      "里程": "363.29"
+    },
+    {
+      "车辆": "X6S5623",
+      "城市": "未知",
+      "场景": "导流带",
+      "采集": "835",
+      "入库": "833",
+      "Records": "13,246",
+      "入库率": "100%",
+      "里程": "2,671.97"
+    },
+    {
+      "车辆": "X3S0200",
+      "城市": "临沂",
+      "场景": "HD_路口",
+      "采集": "834",
+      "入库": "815",
+      "Records": "16,019",
+      "入库率": "98%",
+      "里程": "2,507.39"
+    },
+    {
+      "车辆": "X3S0203",
+      "城市": "临沂",
+      "场景": "HD_路口",
+      "采集": "832",
+      "入库": "828",
+      "Records": "11,233",
+      "入库率": "100%",
+      "里程": "1,807.62"
+    },
+    {
+      "车辆": "X6S5006",
+      "城市": "未知",
+      "场景": "末端",
+      "采集": "800",
+      "入库": "777",
+      "Records": "12,413",
+      "入库率": "97%",
+      "里程": "1,946.08"
+    },
+    {
+      "车辆": "X6S5021",
+      "城市": "未知",
+      "场景": "频繁变道",
+      "采集": "777",
+      "入库": "772",
+      "Records": "12,898",
+      "入库率": "99%",
+      "里程": "2,289.04"
+    },
+    {
+      "车辆": "X6S5609",
+      "城市": "未知",
+      "场景": "末端",
+      "采集": "771",
+      "入库": "764",
+      "Records": "12,504",
+      "入库率": "99%",
+      "里程": "2,763.48"
+    },
+    {
+      "车辆": "X6S5024",
+      "城市": "青岛黄岛区",
+      "场景": "异型车",
+      "采集": "737",
+      "入库": "726",
+      "Records": "12,479",
+      "入库率": "99%",
+      "里程": "2,012.98"
+    },
+    {
+      "车辆": "X6S5607",
+      "城市": "未知",
+      "场景": "频繁变道",
+      "采集": "736",
+      "入库": "716",
+      "Records": "11,263",
+      "入库率": "97%",
+      "里程": "1,893.01"
+    },
+    {
+      "车辆": "X6S5615",
+      "城市": "临沂",
+      "场景": "异形车",
+      "采集": "733",
+      "入库": "727",
+      "Records": "11,660",
+      "入库率": "99%",
+      "里程": "2,535.82"
+    },
+    {
+      "车辆": "DataTest002",
+      "城市": "青岛",
+      "场景": "试运营",
+      "采集": "721",
+      "入库": "665",
+      "Records": "9,417",
+      "入库率": "92%",
+      "里程": "1,436.25"
+    },
+    {
+      "车辆": "X6S5636",
+      "城市": "青岛",
+      "场景": "城阳区B路线",
+      "采集": "706",
+      "入库": "657",
+      "Records": "14,750",
+      "入库率": "93%",
+      "里程": "3,344.18"
+    },
+    {
+      "车辆": "X3S0206",
+      "城市": "临沂",
+      "场景": "HD_路口",
+      "采集": "704",
+      "入库": "700",
+      "Records": "12,535",
+      "入库率": "99%",
+      "里程": "2,092.57"
+    },
+    {
+      "车辆": "X6S5634",
+      "城市": "未知",
+      "场景": "频繁变道",
+      "采集": "683",
+      "入库": "682",
+      "Records": "12,425",
+      "入库率": "100%",
+      "里程": "2,831.30"
+    },
+    {
+      "车辆": "X6S5633",
+      "城市": "未知",
+      "场景": "频繁变道",
+      "采集": "681",
+      "入库": "671",
+      "Records": "13,519",
+      "入库率": "99%",
+      "里程": "3,050.50"
+    },
+    {
+      "车辆": "X6S5868",
+      "城市": "未知",
+      "场景": "锥桶+桩",
+      "采集": "638",
+      "入库": "625",
+      "Records": "3,322",
+      "入库率": "98%",
+      "里程": "285.15"
+    },
+    {
+      "车辆": "X3S1068",
+      "城市": "未知",
+      "场景": "末端",
+      "采集": "625",
+      "入库": "624",
+      "Records": "3,434",
+      "入库率": "100%",
+      "里程": "279.63"
+    },
+    {
+      "车辆": "X3S0052",
+      "城市": "临沂",
+      "场景": "HD_路口",
+      "采集": "611",
+      "入库": "610",
+      "Records": "13,801",
+      "入库率": "100%",
+      "里程": "2,512.88"
+    },
+    {
+      "车辆": "X3S0204",
+      "城市": "临沂",
+      "场景": "HD_路口",
+      "采集": "594",
+      "入库": "593",
+      "Records": "8,994",
+      "入库率": "100%",
+      "里程": "1,642"
+    },
+    {
+      "车辆": "X3S0205",
+      "城市": "临沂",
+      "场景": "HD_路口",
+      "采集": "553",
+      "入库": "550",
+      "Records": "8,985",
+      "入库率": "99%",
+      "里程": "1,693.34"
+    },
+    {
+      "车辆": "X6S5611",
+      "城市": "青岛&临沂",
+      "场景": "E2E_末端",
+      "采集": "545",
+      "入库": "536",
+      "Records": "10,617",
+      "入库率": "98%",
+      "里程": "2,311.80"
+    },
+    {
+      "车辆": "DataTest019",
+      "城市": "青岛",
+      "场景": "nudge",
+      "采集": "529",
+      "入库": "524",
+      "Records": "4,170",
+      "入库率": "99%",
+      "里程": "136.86"
+    },
+    {
+      "车辆": "X3S0211",
+      "城市": "未知",
+      "场景": "导流带",
+      "采集": "494",
+      "入库": "489",
+      "Records": "9,467",
+      "入库率": "99%",
+      "里程": "1,729.76"
+    },
+    {
+      "车辆": "DataTest007",
+      "城市": "青岛",
+      "场景": "nudge",
+      "采集": "488",
+      "入库": "483",
+      "Records": "2,801",
+      "入库率": "99%",
+      "里程": "212.82"
+    },
+    {
+      "车辆": "X6S5019",
+      "城市": "青岛",
+      "场景": "异形车",
+      "采集": "484",
+      "入库": "483",
+      "Records": "7,660",
+      "入库率": "100%",
+      "里程": "1,751.65"
+    },
+    {
+      "车辆": "X3S0212",
+      "城市": "未知",
+      "场景": "导流带",
+      "采集": "483",
+      "入库": "475",
+      "Records": "9,728",
+      "入库率": "98%",
+      "里程": "1,681.75"
+    },
+    {
+      "车辆": "X3S0207",
+      "城市": "临沂",
+      "场景": "HD_路口",
+      "采集": "474",
+      "入库": "467",
+      "Records": "6,236",
+      "入库率": "99%",
+      "里程": "929.41"
+    },
+    {
+      "车辆": "DataTest001",
+      "城市": "青岛",
+      "场景": "试运营",
+      "采集": "459",
+      "入库": "392",
+      "Records": "6,874",
+      "入库率": "85%",
+      "里程": "1,377.84"
+    },
+    {
+      "车辆": "DataTest003",
+      "城市": "青岛",
+      "场景": "试运营",
+      "采集": "459",
+      "入库": "419",
+      "Records": "12,073",
+      "入库率": "91%",
+      "里程": "3,106.79"
+    },
+    {
+      "车辆": "X6S5624",
+      "城市": "日照",
+      "场景": "极近目标",
+      "采集": "451",
+      "入库": "450",
+      "Records": "9,887",
+      "入库率": "100%",
+      "里程": "1,906.78"
+    },
+    {
+      "车辆": "X3S0214",
+      "城市": "临沂",
+      "场景": "HD_路口",
+      "采集": "447",
+      "入库": "447",
+      "Records": "9,284",
+      "入库率": "100%",
+      "里程": "1,725.13"
+    },
+    {
+      "车辆": "DataTest025",
+      "城市": "青岛",
+      "场景": "nudge",
+      "采集": "436",
+      "入库": "284",
+      "Records": "925",
+      "入库率": "65%",
+      "里程": "58.30"
+    },
+    {
+      "车辆": "X3S0210",
+      "城市": "未知",
+      "场景": "路沿",
+      "采集": "433",
+      "入库": "429",
+      "Records": "7,689",
+      "入库率": "99%",
+      "里程": "1,420.54"
+    },
+    {
+      "车辆": "X3S0209",
+      "城市": "临沂",
+      "场景": "HD_路口",
+      "采集": "430",
+      "入库": "423",
+      "Records": "4,396",
+      "入库率": "98%",
+      "里程": "570.25"
+    },
+    {
+      "车辆": "DataTest026",
+      "城市": "青岛",
+      "场景": "nudge",
+      "采集": "355",
+      "入库": "328",
+      "Records": "1,188",
+      "入库率": "92%",
+      "里程": "246.40"
+    },
+    {
+      "车辆": "DataTest008",
+      "城市": "青岛",
+      "场景": "路口",
+      "采集": "342",
+      "入库": "320",
+      "Records": "6,853",
+      "入库率": "94%",
+      "里程": "1,313.41"
+    },
+    {
+      "车辆": "DataTest012",
+      "城市": "青岛",
+      "场景": "里程",
+      "采集": "310",
+      "入库": "293",
+      "Records": "4,412",
+      "入库率": "95%",
+      "里程": "580.60"
+    },
+    {
+      "车辆": "X6S5009",
+      "城市": "青岛",
+      "场景": "ISP 优化专项",
+      "采集": "291",
+      "入库": "288",
+      "Records": "5,270",
+      "入库率": "99%",
+      "里程": "874.59"
+    },
+    {
+      "车辆": "DataTest031",
+      "城市": "青岛",
+      "场景": "nudge",
+      "采集": "273",
+      "入库": "41",
+      "Records": "1,064",
+      "入库率": "15%",
+      "里程": "225.05"
+    },
+    {
+      "车辆": "DataTest011",
+      "城市": "青岛",
+      "场景": "路口",
+      "采集": "205",
+      "入库": "188",
+      "Records": "6,385",
+      "入库率": "92%",
+      "里程": "883.69"
+    },
+    {
+      "车辆": "DataTest014",
+      "城市": "青岛",
+      "场景": "路口",
+      "采集": "205",
+      "入库": "189",
+      "Records": "6,533",
+      "入库率": "92%",
+      "里程": "657.30"
+    },
+    {
+      "车辆": "DataTest009",
+      "城市": "青岛",
+      "场景": "路口",
+      "采集": "198",
+      "入库": "175",
+      "Records": "5,002",
+      "入库率": "88%",
+      "里程": "1,017.95"
+    },
+    {
+      "车辆": "X6S5638",
+      "城市": "青岛",
+      "场景": "城阳区B路线",
+      "采集": "180",
+      "入库": "179",
+      "Records": "4,607",
+      "入库率": "99%",
+      "里程": "884.83"
+    },
+    {
+      "车辆": "DataTest018",
+      "城市": "青岛",
+      "场景": "里程",
+      "采集": "165",
+      "入库": "165",
+      "Records": "4,463",
+      "入库率": "100%",
+      "里程": "1,103.31"
+    },
+    {
+      "车辆": "DataTest017",
+      "城市": "青岛",
+      "场景": "里程",
+      "采集": "150",
+      "入库": "146",
+      "Records": "5,024",
+      "入库率": "97%",
+      "里程": "681.83"
+    },
+    {
+      "车辆": "DataTest016",
+      "城市": "青岛",
+      "场景": "里程",
+      "采集": "140",
+      "入库": "140",
+      "Records": "3,985",
+      "入库率": "100%",
+      "里程": "614.18"
+    },
+    {
+      "车辆": "DataTest020",
+      "城市": "青岛",
+      "场景": "路口",
+      "采集": "126",
+      "入库": "109",
+      "Records": "3,625",
+      "入库率": "87%",
+      "里程": "404.67"
+    },
+    {
+      "车辆": "DataTest010",
+      "城市": "青岛",
+      "场景": "里程",
+      "采集": "125",
+      "入库": "125",
+      "Records": "3,698",
+      "入库率": "100%",
+      "里程": "636.52"
+    },
+    {
+      "车辆": "DataTest015",
+      "城市": "青岛",
+      "场景": "路口",
+      "采集": "122",
+      "入库": "105",
+      "Records": "4,770",
+      "入库率": "86%",
+      "里程": "246.03"
+    },
+    {
+      "车辆": "DataTest005",
+      "城市": "青岛",
+      "场景": "nudge",
+      "采集": "116",
+      "入库": "95",
+      "Records": "2,244",
+      "入库率": "82%",
+      "里程": "637.70"
+    },
+    {
+      "车辆": "X3S1066",
+      "城市": "未知",
+      "场景": "路沿",
+      "采集": "109",
+      "入库": "108",
+      "Records": "372",
+      "入库率": "99%",
+      "里程": "14.26"
+    },
+    {
+      "车辆": "X616167",
+      "城市": "青岛",
+      "场景": "FTX验证",
+      "采集": "108",
+      "入库": "108",
+      "Records": "2,379",
+      "入库率": "100%",
+      "里程": "132.54"
+    },
+    {
+      "车辆": "DataTest013",
+      "城市": "青岛",
+      "场景": "里程",
+      "采集": "105",
+      "入库": "102",
+      "Records": "3,404",
+      "入库率": "97%",
+      "里程": "431.02"
+    },
+    {
+      "车辆": "X616166",
+      "城市": "未知",
+      "场景": "三轮车_cut in",
+      "采集": "99",
+      "入库": "97",
+      "Records": "1,431",
+      "入库率": "98%",
+      "里程": "115.96"
+    },
+    {
+      "车辆": "X616168",
+      "城市": "青岛",
+      "场景": "非HD_里程",
+      "采集": "99",
+      "入库": "98",
+      "Records": "1,793",
+      "入库率": "99%",
+      "里程": "128.07"
+    },
+    {
+      "车辆": "DataTest023",
+      "城市": "青岛",
+      "场景": "里程",
+      "采集": "80",
+      "入库": "41",
+      "Records": "995",
+      "入库率": "51%",
+      "里程": "277.36"
+    },
+    {
+      "车辆": "DataTest028",
+      "城市": "青岛",
+      "场景": "里程",
+      "采集": "72",
+      "入库": "33",
+      "Records": "776",
+      "入库率": "46%",
+      "里程": "220.46"
+    },
+    {
+      "车辆": "DataTest004",
+      "城市": "青岛",
+      "场景": "里程",
+      "采集": "69",
+      "入库": "69",
+      "Records": "1,455",
+      "入库率": "100%",
+      "里程": "602.59"
+    },
+    {
+      "车辆": "DataTest032",
+      "城市": "青岛",
+      "场景": "路口",
+      "采集": "65",
+      "入库": "48",
+      "Records": "1,510",
+      "入库率": "74%",
+      "里程": "132.10"
+    },
+    {
+      "车辆": "X6S7929",
+      "城市": "青岛",
+      "场景": "非HD_路口",
+      "采集": "59",
+      "入库": "59",
+      "Records": "1,029",
+      "入库率": "100%",
+      "里程": "45.37"
+    },
+    {
+      "车辆": "DataTest027",
+      "城市": "青岛",
+      "场景": "路口",
+      "采集": "59",
+      "入库": "44",
+      "Records": "1,339",
+      "入库率": "75%",
+      "里程": "119.94"
+    },
+    {
+      "车辆": "DataTest022",
+      "城市": "青岛",
+      "场景": "路口",
+      "采集": "57",
+      "入库": "42",
+      "Records": "1,579",
+      "入库率": "74%",
+      "里程": "63.02"
+    },
+    {
+      "车辆": "X616169",
+      "城市": "青岛",
+      "场景": "非HD_里程",
+      "采集": "55",
+      "入库": "55",
+      "Records": "1,036",
+      "入库率": "100%",
+      "里程": "101.35"
+    },
+    {
+      "车辆": "DataTest021",
+      "城市": "青岛",
+      "场景": "路口",
+      "采集": "48",
+      "入库": "40",
+      "Records": "955",
+      "入库率": "83%",
+      "里程": "253.24"
+    },
+    {
+      "车辆": "X6S7927",
+      "城市": "青岛",
+      "场景": "非HD_路口",
+      "采集": "38",
+      "入库": "38",
+      "Records": "695",
+      "入库率": "100%",
+      "里程": "32.84"
+    },
+    {
+      "车辆": "X6S7926",
+      "城市": "青岛",
+      "场景": "非HD_路口",
+      "采集": "34",
+      "入库": "34",
+      "Records": "617",
+      "入库率": "100%",
+      "里程": "25.60"
+    },
+    {
+      "车辆": "X6S5863",
+      "城市": "青岛",
+      "场景": "抬杠",
+      "采集": "28",
+      "入库": "28",
+      "Records": "91",
+      "入库率": "100%",
+      "里程": "7.71"
+    },
+    {
+      "车辆": "x3s0209",
+      "城市": "未知",
+      "场景": "三轮车_极近",
+      "采集": "26",
+      "入库": "0",
+      "Records": "0",
+      "入库率": "0%",
+      "里程": "0"
+    },
+    {
+      "车辆": "DataTest036",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "23",
+      "入库": "23",
+      "Records": "641",
+      "入库率": "100%",
+      "里程": "258.81"
+    },
+    {
+      "车辆": "X6S7930",
+      "城市": "未知",
+      "场景": "三轮车_cut in",
+      "采集": "22",
+      "入库": "22",
+      "Records": "609",
+      "入库率": "100%",
+      "里程": "4.67"
+    },
+    {
+      "车辆": "X6S7928",
+      "城市": "青岛",
+      "场景": "非HD_路口",
+      "采集": "18",
+      "入库": "18",
+      "Records": "599",
+      "入库率": "100%",
+      "里程": "14.91"
+    },
+    {
+      "车辆": "DataTest033",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "18",
+      "入库": "18",
+      "Records": "482",
+      "入库率": "100%",
+      "里程": "149.52"
+    },
+    {
+      "车辆": "DataTest037",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "18",
+      "入库": "18",
+      "Records": "469",
+      "入库率": "100%",
+      "里程": "160.38"
+    },
+    {
+      "车辆": "DataTest006",
+      "城市": "青岛",
+      "场景": "里程",
+      "采集": "18",
+      "入库": "18",
+      "Records": "404",
+      "入库率": "100%",
+      "里程": "84.39"
+    },
+    {
+      "车辆": "X6S6419",
+      "城市": "青岛",
+      "场景": "EMX验证",
+      "采集": "16",
+      "入库": "14",
+      "Records": "499",
+      "入库率": "88%",
+      "里程": "163.13"
+    },
+    {
+      "车辆": "X616170",
+      "城市": "青岛",
+      "场景": "非HD_里程",
+      "采集": "15",
+      "入库": "14",
+      "Records": "348",
+      "入库率": "93%",
+      "里程": "9.93"
+    },
+    {
+      "车辆": "DataTest030",
+      "城市": "青岛",
+      "场景": "里程",
+      "采集": "15",
+      "入库": "10",
+      "Records": "261",
+      "入库率": "67%",
+      "里程": "66.12"
+    },
+    {
+      "车辆": "X6S1060",
+      "城市": "未知",
+      "场景": "立柱",
+      "采集": "15",
+      "入库": "0",
+      "Records": "0",
+      "入库率": "0%",
+      "里程": "0"
+    },
+    {
+      "车辆": "x3s0211",
+      "城市": "未知",
+      "场景": "只有文字灯亮起",
+      "采集": "15",
+      "入库": "0",
+      "Records": "0",
+      "入库率": "0%",
+      "里程": "0"
+    },
+    {
+      "车辆": "DataTest034",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "14",
+      "入库": "14",
+      "Records": "467",
+      "入库率": "100%",
+      "里程": "72.42"
+    },
+    {
+      "车辆": "x6s5625",
+      "城市": "未知",
+      "场景": "机动灯+非机动车灯在同一高度，且为异色",
+      "采集": "10",
+      "入库": "0",
+      "Records": "0",
+      "入库率": "0%",
+      "里程": "0"
+    },
+    {
+      "车辆": "DataTest035",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "9",
+      "入库": "9",
+      "Records": "321",
+      "入库率": "100%",
+      "里程": "64.22"
+    },
+    {
+      "车辆": "DataTest050",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "8",
+      "入库": "8",
+      "Records": "146",
+      "入库率": "100%",
+      "里程": "32.71"
+    },
+    {
+      "车辆": "DataTest039",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "8",
+      "入库": "6",
+      "Records": "170",
+      "入库率": "75%",
+      "里程": "32.91"
+    },
+    {
+      "车辆": "DataTest049",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "8",
+      "入库": "4",
+      "Records": "160",
+      "入库率": "50%",
+      "里程": "13.34"
+    },
+    {
+      "车辆": "DataTest053",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "7",
+      "入库": "7",
+      "Records": "157",
+      "入库率": "100%",
+      "里程": "22.08"
+    },
+    {
+      "车辆": "DataTest060",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "7",
+      "入库": "7",
+      "Records": "163",
+      "入库率": "100%",
+      "里程": "70.02"
+    },
+    {
+      "车辆": "x6s5868",
+      "城市": "未知",
+      "场景": "工程车",
+      "采集": "7",
+      "入库": "0",
+      "Records": "0",
+      "入库率": "0%",
+      "里程": "0"
+    },
+    {
+      "车辆": "DataTest051",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "6",
+      "入库": "6",
+      "Records": "168",
+      "入库率": "100%",
+      "里程": "51.11"
+    },
+    {
+      "车辆": "DataTest043",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "6",
+      "入库": "6",
+      "Records": "168",
+      "入库率": "100%",
+      "里程": "36.08"
+    },
+    {
+      "车辆": "DataTest054",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "6",
+      "入库": "6",
+      "Records": "160",
+      "入库率": "100%",
+      "里程": "77.50"
+    },
+    {
+      "车辆": "DataTest055",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "6",
+      "入库": "6",
+      "Records": "170",
+      "入库率": "100%",
+      "里程": "80.87"
+    },
+    {
+      "车辆": "DataTest024",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "6",
+      "入库": "6",
+      "Records": "166",
+      "入库率": "100%",
+      "里程": "54.93"
+    },
+    {
+      "车辆": "x6s5865",
+      "城市": "未知",
+      "场景": "无人快递车",
+      "采集": "6",
+      "入库": "0",
+      "Records": "0",
+      "入库率": "0%",
+      "里程": "0"
+    },
+    {
+      "车辆": "DataTest056",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "5",
+      "入库": "5",
+      "Records": "159",
+      "入库率": "100%",
+      "里程": "33.99"
+    },
+    {
+      "车辆": "DataTest057",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "5",
+      "入库": "5",
+      "Records": "159",
+      "入库率": "100%",
+      "里程": "14.79"
+    },
+    {
+      "车辆": "DataTest038",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "5",
+      "入库": "5",
+      "Records": "163",
+      "入库率": "100%",
+      "里程": "40.89"
+    },
+    {
+      "车辆": "DataTest058",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "5",
+      "入库": "5",
+      "Records": "162",
+      "入库率": "100%",
+      "里程": "10.33"
+    },
+    {
+      "车辆": "DataTest046",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "5",
+      "入库": "5",
+      "Records": "171",
+      "入库率": "100%",
+      "里程": "27.85"
+    },
+    {
+      "车辆": "x3s0204",
+      "城市": "未知",
+      "场景": "机动灯+非机动车灯在同一高度，且为异色",
+      "采集": "5",
+      "入库": "0",
+      "Records": "0",
+      "入库率": "0%",
+      "里程": "0"
+    },
+    {
+      "车辆": "DataTest041",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "4",
+      "入库": "4",
+      "Records": "160",
+      "入库率": "100%",
+      "里程": "5.09"
+    },
+    {
+      "车辆": "DataTest048",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "4",
+      "入库": "4",
+      "Records": "143",
+      "入库率": "100%",
+      "里程": "16.83"
+    },
+    {
+      "车辆": "DataTest029",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "4",
+      "入库": "4",
+      "Records": "159",
+      "入库率": "100%",
+      "里程": "0"
+    },
+    {
+      "车辆": "DataTest042",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "4",
+      "入库": "4",
+      "Records": "154",
+      "入库率": "100%",
+      "里程": "0"
+    },
+    {
+      "车辆": "DataTest044",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "4",
+      "入库": "4",
+      "Records": "144",
+      "入库率": "100%",
+      "里程": "4.62"
+    },
+    {
+      "车辆": "DataTest047",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "4",
+      "入库": "4",
+      "Records": "166",
+      "入库率": "100%",
+      "里程": "2.48"
+    },
+    {
+      "车辆": "DataTest052",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "4",
+      "入库": "4",
+      "Records": "162",
+      "入库率": "100%",
+      "里程": "2.61"
+    },
+    {
+      "车辆": "x6s5628",
+      "城市": "未知",
+      "场景": "异形小货车",
+      "采集": "4",
+      "入库": "0",
+      "Records": "0",
+      "入库率": "0%",
+      "里程": "0"
+    },
+    {
+      "车辆": "DataTest040",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "3",
+      "入库": "3",
+      "Records": "146",
+      "入库率": "100%",
+      "里程": "0"
+    },
+    {
+      "车辆": "DataTest059",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "3",
+      "入库": "3",
+      "Records": "107",
+      "入库率": "100%",
+      "里程": "14.36"
+    },
+    {
+      "车辆": "x3S0206",
+      "城市": "未知",
+      "场景": "大货车",
+      "采集": "3",
+      "入库": "0",
+      "Records": "0",
+      "入库率": "0%",
+      "里程": "0"
+    },
+    {
+      "车辆": "DataTest045",
+      "城市": "盐城",
+      "场景": "里程",
+      "采集": "2",
+      "入库": "2",
+      "Records": "152",
+      "入库率": "100%",
+      "里程": "0"
+    },
+    {
+      "车辆": "车号",
+      "城市": "青岛",
+      "场景": "HD_路口",
+      "采集": "1",
+      "入库": "0",
+      "Records": "0",
+      "入库率": "0%",
+      "里程": "0"
+    },
+    {
+      "车辆": "X6s5635",
+      "城市": "青岛",
+      "场景": "HD_里程",
+      "采集": "1",
+      "入库": "0",
+      "Records": "0",
+      "入库率": "0%",
+      "里程": "0"
+    },
+    {
+      "车辆": "X3S0208",
+      "城市": "未知",
+      "场景": "异形三轮车",
+      "采集": "1",
+      "入库": "0",
+      "Records": "0",
+      "入库率": "0%",
+      "里程": "0"
+    },
+    {
+      "车辆": "x6s5615",
+      "城市": "临沂",
+      "场景": "异形车",
+      "采集": "1",
+      "入库": "0",
+      "Records": "0",
+      "入库率": "0%",
+      "里程": "0"
+    }
+  ],
+  "vehicle_quality_summary": [
+    {
+      "车辆": "X6S5860",
+      "总 Clips": "8,756",
+      "不通过率": "100%",
+      "不通过数": "8,756",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "7,729 (88.3%)",
+      "seq_frame_interval_too_large": "37 (0.4%)",
+      "camera_interval_too_large": "5,855 (66.9%)"
+    },
+    {
+      "车辆": "X6S5868",
+      "总 Clips": "2,867",
+      "不通过率": "100%",
+      "不通过数": "2,867",
+      "loss_camera_sensor": "14 (0.5%)",
+      "pcd_loss": "2,232 (77.9%)",
+      "seq_frame_interval_too_large": "8 (0.3%)",
+      "camera_interval_too_large": "2,571 (89.7%)"
+    },
+    {
+      "车辆": "X3S1066",
+      "总 Clips": "478",
+      "不通过率": "100%",
+      "不通过数": "478",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "469 (98.1%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "45 (9.4%)"
+    },
+    {
+      "车辆": "X6S5863",
+      "总 Clips": "91",
+      "不通过率": "100%",
+      "不通过数": "91",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "47 (51.6%)",
+      "seq_frame_interval_too_large": "1 (1.1%)",
+      "camera_interval_too_large": "91 (100%)"
+    },
+    {
+      "车辆": "X616170",
+      "总 Clips": "218",
+      "不通过率": "100%",
+      "不通过数": "218",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "191 (87.6%)",
+      "seq_frame_interval_too_large": "1 (0.5%)",
+      "camera_interval_too_large": "146 (67%)"
+    },
+    {
+      "车辆": "DataTest050",
+      "总 Clips": "137",
+      "不通过率": "100%",
+      "不通过数": "137",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "137 (100%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest006",
+      "总 Clips": "185",
+      "不通过率": "100%",
+      "不通过数": "185",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "185 (100%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest045",
+      "总 Clips": "16",
+      "不通过率": "100%",
+      "不通过数": "16",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "16 (100%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest053",
+      "总 Clips": "60",
+      "不通过率": "100%",
+      "不通过数": "60",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "60 (100%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest041",
+      "总 Clips": "25",
+      "不通过率": "100%",
+      "不通过数": "25",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "25 (100%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest058",
+      "总 Clips": "17",
+      "不通过率": "100%",
+      "不通过数": "17",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "17 (100%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest039",
+      "总 Clips": "70",
+      "不通过率": "100%",
+      "不通过数": "70",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "70 (100%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest052",
+      "总 Clips": "10",
+      "不通过率": "100%",
+      "不通过数": "10",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "10 (100%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest057",
+      "总 Clips": "39",
+      "不通过率": "100%",
+      "不通过数": "39",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "39 (100%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest060",
+      "总 Clips": "134",
+      "不通过率": "100%",
+      "不通过数": "134",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "134 (100%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest044",
+      "总 Clips": "21",
+      "不通过率": "100%",
+      "不通过数": "21",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "21 (100%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest047",
+      "总 Clips": "11",
+      "不通过率": "100%",
+      "不通过数": "11",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "11 (100%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "X6S5019",
+      "总 Clips": "7,384",
+      "不通过率": "99.9%",
+      "不通过数": "7,373",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "6,460 (87.5%)",
+      "seq_frame_interval_too_large": "4 (0.1%)",
+      "camera_interval_too_large": "6,819 (92.3%)"
+    },
+    {
+      "车辆": "X6S5624",
+      "总 Clips": "9,645",
+      "不通过率": "99.7%",
+      "不通过数": "9,619",
+      "loss_camera_sensor": "5 (0.1%)",
+      "pcd_loss": "1,159 (12%)",
+      "seq_frame_interval_too_large": "148 (1.5%)",
+      "camera_interval_too_large": "9,597 (99.5%)"
+    },
+    {
+      "车辆": "DataTest007",
+      "总 Clips": "2,293",
+      "不通过率": "99.6%",
+      "不通过数": "2,284",
+      "loss_camera_sensor": "76 (3.3%)",
+      "pcd_loss": "2,284 (99.6%)",
+      "seq_frame_interval_too_large": "525 (22.9%)",
+      "camera_interval_too_large": "80 (3.5%)"
+    },
+    {
+      "车辆": "X616169",
+      "总 Clips": "963",
+      "不通过率": "99.4%",
+      "不通过数": "957",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "809 (84%)",
+      "seq_frame_interval_too_large": "4 (0.4%)",
+      "camera_interval_too_large": "201 (20.9%)"
+    },
+    {
+      "车辆": "DataTest054",
+      "总 Clips": "160",
+      "不通过率": "99.4%",
+      "不通过数": "159",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "159 (99.4%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "X3S1060",
+      "总 Clips": "9,802",
+      "不通过率": "99.3%",
+      "不通过数": "9,737",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "8,212 (83.8%)",
+      "seq_frame_interval_too_large": "16 (0.2%)",
+      "camera_interval_too_large": "6,333 (64.6%)"
+    },
+    {
+      "车辆": "X3S1064",
+      "总 Clips": "7,679",
+      "不通过率": "99.3%",
+      "不通过数": "7,624",
+      "loss_camera_sensor": "17 (0.2%)",
+      "pcd_loss": "5,605 (73%)",
+      "seq_frame_interval_too_large": "13 (0.2%)",
+      "camera_interval_too_large": "7,055 (91.9%)"
+    },
+    {
+      "车辆": "X616168",
+      "总 Clips": "1,446",
+      "不通过率": "99.3%",
+      "不通过数": "1,436",
+      "loss_camera_sensor": "155 (10.7%)",
+      "pcd_loss": "1,378 (95.3%)",
+      "seq_frame_interval_too_large": "64 (4.4%)",
+      "camera_interval_too_large": "565 (39.1%)"
+    },
+    {
+      "车辆": "X616166",
+      "总 Clips": "1,374",
+      "不通过率": "99.2%",
+      "不通过数": "1,363",
+      "loss_camera_sensor": "10 (0.7%)",
+      "pcd_loss": "1,297 (94.4%)",
+      "seq_frame_interval_too_large": "3 (0.2%)",
+      "camera_interval_too_large": "396 (28.8%)"
+    },
+    {
+      "车辆": "DataTest019",
+      "总 Clips": "1,890",
+      "不通过率": "99.2%",
+      "不通过数": "1,874",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "1,874 (99.2%)",
+      "seq_frame_interval_too_large": "92 (4.9%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest010",
+      "总 Clips": "1,612",
+      "不通过率": "98.7%",
+      "不通过数": "1,591",
+      "loss_camera_sensor": "22 (1.4%)",
+      "pcd_loss": "1,591 (98.7%)",
+      "seq_frame_interval_too_large": "106 (6.6%)",
+      "camera_interval_too_large": "22 (1.4%)"
+    },
+    {
+      "车辆": "DataTest016",
+      "总 Clips": "1,515",
+      "不通过率": "98.1%",
+      "不通过数": "1,486",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "1,486 (98.1%)",
+      "seq_frame_interval_too_large": "52 (3.4%)",
+      "camera_interval_too_large": "1 (0.1%)"
+    },
+    {
+      "车辆": "X616167",
+      "总 Clips": "1,790",
+      "不通过率": "97.9%",
+      "不通过数": "1,752",
+      "loss_camera_sensor": "380 (21.2%)",
+      "pcd_loss": "1,569 (87.7%)",
+      "seq_frame_interval_too_large": "391 (21.8%)",
+      "camera_interval_too_large": "824 (46%)"
+    },
+    {
+      "车辆": "DataTest038",
+      "总 Clips": "77",
+      "不通过率": "97.4%",
+      "不通过数": "75",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "75 (97.4%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "X3S1065",
+      "总 Clips": "8,186",
+      "不通过率": "97.3%",
+      "不通过数": "7,968",
+      "loss_camera_sensor": "10 (0.1%)",
+      "pcd_loss": "5,973 (73%)",
+      "seq_frame_interval_too_large": "9 (0.1%)",
+      "camera_interval_too_large": "7,239 (88.4%)"
+    },
+    {
+      "车辆": "DataTest018",
+      "总 Clips": "2,368",
+      "不通过率": "97.3%",
+      "不通过数": "2,305",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "2,303 (97.3%)",
+      "seq_frame_interval_too_large": "99 (4.2%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest043",
+      "总 Clips": "93",
+      "不通过率": "96.8%",
+      "不通过数": "90",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "90 (96.8%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest013",
+      "总 Clips": "1,058",
+      "不通过率": "96.4%",
+      "不通过数": "1,020",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "1,020 (96.4%)",
+      "seq_frame_interval_too_large": "89 (8.4%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest051",
+      "总 Clips": "111",
+      "不通过率": "96.4%",
+      "不通过数": "107",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "107 (96.4%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "X6S5866",
+      "总 Clips": "4,488",
+      "不通过率": "96.2%",
+      "不通过数": "4,316",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "3,326 (74.1%)",
+      "seq_frame_interval_too_large": "11 (0.2%)",
+      "camera_interval_too_large": "3,780 (84.2%)"
+    },
+    {
+      "车辆": "X3S1062",
+      "总 Clips": "7,376",
+      "不通过率": "95.1%",
+      "不通过数": "7,012",
+      "loss_camera_sensor": "5 (0.1%)",
+      "pcd_loss": "6,266 (85%)",
+      "seq_frame_interval_too_large": "16 (0.2%)",
+      "camera_interval_too_large": "4,053 (54.9%)"
+    },
+    {
+      "车辆": "DataTest033",
+      "总 Clips": "368",
+      "不通过率": "95.1%",
+      "不通过数": "350",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "350 (95.1%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest017",
+      "总 Clips": "1,591",
+      "不通过率": "94.7%",
+      "不通过数": "1,507",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "1,507 (94.7%)",
+      "seq_frame_interval_too_large": "73 (4.6%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest034",
+      "总 Clips": "157",
+      "不通过率": "94.3%",
+      "不通过数": "148",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "148 (94.3%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest048",
+      "总 Clips": "32",
+      "不通过率": "93.8%",
+      "不通过数": "30",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "30 (93.8%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest056",
+      "总 Clips": "94",
+      "不通过率": "93.6%",
+      "不通过数": "88",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "88 (93.6%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest024",
+      "总 Clips": "135",
+      "不通过率": "93.3%",
+      "不通过数": "126",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "126 (93.3%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "X6S5865",
+      "总 Clips": "6,089",
+      "不通过率": "91.4%",
+      "不通过数": "5,567",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "4,411 (72.4%)",
+      "seq_frame_interval_too_large": "8 (0.1%)",
+      "camera_interval_too_large": "3,954 (64.9%)"
+    },
+    {
+      "车辆": "X3S1063",
+      "总 Clips": "10,123",
+      "不通过率": "90.7%",
+      "不通过数": "9,185",
+      "loss_camera_sensor": "21 (0.2%)",
+      "pcd_loss": "6,964 (68.8%)",
+      "seq_frame_interval_too_large": "15 (0.1%)",
+      "camera_interval_too_large": "7,392 (73%)"
+    },
+    {
+      "车辆": "X6S5638",
+      "总 Clips": "4,395",
+      "不通过率": "90.7%",
+      "不通过数": "3,987",
+      "loss_camera_sensor": "2 (0%)",
+      "pcd_loss": "724 (16.5%)",
+      "seq_frame_interval_too_large": "2 (0%)",
+      "camera_interval_too_large": "3,977 (90.5%)"
+    },
+    {
+      "车辆": "X6S6419",
+      "总 Clips": "787",
+      "不通过率": "90.7%",
+      "不通过数": "714",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "575 (73.1%)",
+      "seq_frame_interval_too_large": "312 (39.6%)",
+      "camera_interval_too_large": "541 (68.7%)"
+    },
+    {
+      "车辆": "DataTest001",
+      "总 Clips": "3,778",
+      "不通过率": "90%",
+      "不通过数": "3,399",
+      "loss_camera_sensor": "21 (0.6%)",
+      "pcd_loss": "3,230 (85.5%)",
+      "seq_frame_interval_too_large": "517 (13.7%)",
+      "camera_interval_too_large": "335 (8.9%)"
+    },
+    {
+      "车辆": "X3S1059",
+      "总 Clips": "9,657",
+      "不通过率": "88.8%",
+      "不通过数": "8,571",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "6,284 (65.1%)",
+      "seq_frame_interval_too_large": "24 (0.2%)",
+      "camera_interval_too_large": "6,362 (65.9%)"
+    },
+    {
+      "车辆": "X3S1068",
+      "总 Clips": "3,040",
+      "不通过率": "88.6%",
+      "不通过数": "2,694",
+      "loss_camera_sensor": "5 (0.2%)",
+      "pcd_loss": "2,101 (69.1%)",
+      "seq_frame_interval_too_large": "4 (0.1%)",
+      "camera_interval_too_large": "1,364 (44.9%)"
+    },
+    {
+      "车辆": "X3S1067",
+      "总 Clips": "4,202",
+      "不通过率": "88.3%",
+      "不通过数": "3,711",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "2,817 (67%)",
+      "seq_frame_interval_too_large": "7 (0.2%)",
+      "camera_interval_too_large": "2,773 (66%)"
+    },
+    {
+      "车辆": "DataTest046",
+      "总 Clips": "60",
+      "不通过率": "88.3%",
+      "不通过数": "53",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "53 (88.3%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest055",
+      "总 Clips": "170",
+      "不通过率": "87.6%",
+      "不通过数": "149",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "149 (87.6%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "X6S5869",
+      "总 Clips": "7,580",
+      "不通过率": "86.8%",
+      "不通过数": "6,578",
+      "loss_camera_sensor": "6 (0.1%)",
+      "pcd_loss": "5,501 (72.6%)",
+      "seq_frame_interval_too_large": "10 (0.1%)",
+      "camera_interval_too_large": "3,983 (52.5%)"
+    },
+    {
+      "车辆": "X6S5862",
+      "总 Clips": "4,670",
+      "不通过率": "86.8%",
+      "不通过数": "4,054",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "3,434 (73.5%)",
+      "seq_frame_interval_too_large": "18 (0.4%)",
+      "camera_interval_too_large": "2,428 (52%)"
+    },
+    {
+      "车辆": "X3S0214",
+      "总 Clips": "9,716",
+      "不通过率": "86.1%",
+      "不通过数": "8,365",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "325 (3.3%)",
+      "seq_frame_interval_too_large": "27 (0.3%)",
+      "camera_interval_too_large": "8,345 (85.9%)"
+    },
+    {
+      "车辆": "X3S1061",
+      "总 Clips": "7,921",
+      "不通过率": "86.1%",
+      "不通过数": "6,821",
+      "loss_camera_sensor": "2 (0%)",
+      "pcd_loss": "5,308 (67%)",
+      "seq_frame_interval_too_large": "13 (0.2%)",
+      "camera_interval_too_large": "4,641 (58.6%)"
+    },
+    {
+      "车辆": "X6S5867",
+      "总 Clips": "7,099",
+      "不通过率": "85.2%",
+      "不通过数": "6,050",
+      "loss_camera_sensor": "1 (0%)",
+      "pcd_loss": "4,627 (65.2%)",
+      "seq_frame_interval_too_large": "18 (0.3%)",
+      "camera_interval_too_large": "5,154 (72.6%)"
+    },
+    {
+      "车辆": "X6S5864",
+      "总 Clips": "7,731",
+      "不通过率": "83.9%",
+      "不通过数": "6,489",
+      "loss_camera_sensor": "10 (0.1%)",
+      "pcd_loss": "5,510 (71.3%)",
+      "seq_frame_interval_too_large": "81 (1%)",
+      "camera_interval_too_large": "3,815 (49.3%)"
+    },
+    {
+      "车辆": "X6S5861",
+      "总 Clips": "7,922",
+      "不通过率": "83.9%",
+      "不通过数": "6,649",
+      "loss_camera_sensor": "16 (0.2%)",
+      "pcd_loss": "5,414 (68.3%)",
+      "seq_frame_interval_too_large": "15 (0.2%)",
+      "camera_interval_too_large": "4,342 (54.8%)"
+    },
+    {
+      "车辆": "DataTest059",
+      "总 Clips": "31",
+      "不通过率": "83.9%",
+      "不通过数": "26",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "26 (83.9%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "X6S5024",
+      "总 Clips": "11,941",
+      "不通过率": "81.8%",
+      "不通过数": "9,767",
+      "loss_camera_sensor": "14 (0.1%)",
+      "pcd_loss": "178 (1.5%)",
+      "seq_frame_interval_too_large": "20 (0.2%)",
+      "camera_interval_too_large": "9,692 (81.2%)"
+    },
+    {
+      "车辆": "X6S5609",
+      "总 Clips": "12,131",
+      "不通过率": "80.3%",
+      "不通过数": "9,747",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "648 (5.3%)",
+      "seq_frame_interval_too_large": "9 (0.1%)",
+      "camera_interval_too_large": "9,503 (78.3%)"
+    },
+    {
+      "车辆": "X6S5633",
+      "总 Clips": "13,311",
+      "不通过率": "80.2%",
+      "不通过数": "10,669",
+      "loss_camera_sensor": "24 (0.2%)",
+      "pcd_loss": "1,011 (7.6%)",
+      "seq_frame_interval_too_large": "11 (0.1%)",
+      "camera_interval_too_large": "10,607 (79.7%)"
+    },
+    {
+      "车辆": "X3S0212",
+      "总 Clips": "9,916",
+      "不通过率": "79.5%",
+      "不通过数": "7,882",
+      "loss_camera_sensor": "1 (0%)",
+      "pcd_loss": "252 (2.5%)",
+      "seq_frame_interval_too_large": "9 (0.1%)",
+      "camera_interval_too_large": "7,745 (78.1%)"
+    },
+    {
+      "车辆": "X3S0204",
+      "总 Clips": "8,885",
+      "不通过率": "79.1%",
+      "不通过数": "7,029",
+      "loss_camera_sensor": "3 (0%)",
+      "pcd_loss": "163 (1.8%)",
+      "seq_frame_interval_too_large": "5 (0.1%)",
+      "camera_interval_too_large": "6,911 (77.8%)"
+    },
+    {
+      "车辆": "DataTest002",
+      "总 Clips": "5,536",
+      "不通过率": "78.1%",
+      "不通过数": "4,322",
+      "loss_camera_sensor": "14 (0.3%)",
+      "pcd_loss": "4,012 (72.5%)",
+      "seq_frame_interval_too_large": "1,370 (24.7%)",
+      "camera_interval_too_large": "262 (4.7%)"
+    },
+    {
+      "车辆": "X6S5606",
+      "总 Clips": "14,343",
+      "不通过率": "77.7%",
+      "不通过数": "11,150",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "714 (5%)",
+      "seq_frame_interval_too_large": "31 (0.2%)",
+      "camera_interval_too_large": "10,988 (76.6%)"
+    },
+    {
+      "车辆": "X6S5611",
+      "总 Clips": "10,333",
+      "不通过率": "76.5%",
+      "不通过数": "7,900",
+      "loss_camera_sensor": "4 (0%)",
+      "pcd_loss": "171 (1.7%)",
+      "seq_frame_interval_too_large": "3 (0%)",
+      "camera_interval_too_large": "7,829 (75.8%)"
+    },
+    {
+      "车辆": "X6S5021",
+      "总 Clips": "13,151",
+      "不通过率": "75.1%",
+      "不通过数": "9,873",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "3,593 (27.3%)",
+      "seq_frame_interval_too_large": "12 (0.1%)",
+      "camera_interval_too_large": "8,089 (61.5%)"
+    },
+    {
+      "车辆": "X3S0211",
+      "总 Clips": "9,554",
+      "不通过率": "74.7%",
+      "不通过数": "7,133",
+      "loss_camera_sensor": "3 (0%)",
+      "pcd_loss": "210 (2.2%)",
+      "seq_frame_interval_too_large": "9 (0.1%)",
+      "camera_interval_too_large": "7,121 (74.5%)"
+    },
+    {
+      "车辆": "DataTest003",
+      "总 Clips": "6,453",
+      "不通过率": "73.6%",
+      "不通过数": "4,749",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "4,361 (67.6%)",
+      "seq_frame_interval_too_large": "552 (8.6%)",
+      "camera_interval_too_large": "1,073 (16.6%)"
+    },
+    {
+      "车辆": "DataTest009",
+      "总 Clips": "2,562",
+      "不通过率": "73%",
+      "不通过数": "1,871",
+      "loss_camera_sensor": "4 (0.2%)",
+      "pcd_loss": "1,871 (73%)",
+      "seq_frame_interval_too_large": "49 (1.9%)",
+      "camera_interval_too_large": "4 (0.2%)"
+    },
+    {
+      "车辆": "DataTest012",
+      "总 Clips": "2,294",
+      "不通过率": "72.8%",
+      "不通过数": "1,669",
+      "loss_camera_sensor": "30 (1.3%)",
+      "pcd_loss": "1,669 (72.8%)",
+      "seq_frame_interval_too_large": "561 (24.5%)",
+      "camera_interval_too_large": "30 (1.3%)"
+    },
+    {
+      "车辆": "X6S5636",
+      "总 Clips": "15,034",
+      "不通过率": "72.7%",
+      "不通过数": "10,936",
+      "loss_camera_sensor": "1 (0%)",
+      "pcd_loss": "1,194 (7.9%)",
+      "seq_frame_interval_too_large": "10 (0.1%)",
+      "camera_interval_too_large": "10,838 (72.1%)"
+    },
+    {
+      "车辆": "X6S5006",
+      "总 Clips": "10,779",
+      "不通过率": "72.7%",
+      "不通过数": "7,832",
+      "loss_camera_sensor": "3 (0%)",
+      "pcd_loss": "3,766 (34.9%)",
+      "seq_frame_interval_too_large": "27 (0.3%)",
+      "camera_interval_too_large": "7,421 (68.8%)"
+    },
+    {
+      "车辆": "X6S5623",
+      "总 Clips": "13,048",
+      "不通过率": "72.3%",
+      "不通过数": "9,434",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "447 (3.4%)",
+      "seq_frame_interval_too_large": "12 (0.1%)",
+      "camera_interval_too_large": "9,347 (71.6%)"
+    },
+    {
+      "车辆": "X6S5621",
+      "总 Clips": "14,308",
+      "不通过率": "72.2%",
+      "不通过数": "10,328",
+      "loss_camera_sensor": "7 (0%)",
+      "pcd_loss": "873 (6.1%)",
+      "seq_frame_interval_too_large": "20 (0.1%)",
+      "camera_interval_too_large": "10,021 (70%)"
+    },
+    {
+      "车辆": "X6S5634",
+      "总 Clips": "12,909",
+      "不通过率": "71.2%",
+      "不通过数": "9,196",
+      "loss_camera_sensor": "2 (0%)",
+      "pcd_loss": "1,544 (12%)",
+      "seq_frame_interval_too_large": "10 (0.1%)",
+      "camera_interval_too_large": "8,776 (68%)"
+    },
+    {
+      "车辆": "X6S5615",
+      "总 Clips": "11,824",
+      "不通过率": "70.9%",
+      "不通过数": "8,378",
+      "loss_camera_sensor": "3 (0%)",
+      "pcd_loss": "321 (2.7%)",
+      "seq_frame_interval_too_large": "11 (0.1%)",
+      "camera_interval_too_large": "8,226 (69.6%)"
+    },
+    {
+      "车辆": "DataTest014",
+      "总 Clips": "2,100",
+      "不通过率": "70.6%",
+      "不通过数": "1,482",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "1,482 (70.6%)",
+      "seq_frame_interval_too_large": "79 (3.8%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "X3S0197",
+      "总 Clips": "13,437",
+      "不通过率": "69.9%",
+      "不通过数": "9,387",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "76 (0.6%)",
+      "seq_frame_interval_too_large": "10 (0.1%)",
+      "camera_interval_too_large": "9,331 (69.4%)"
+    },
+    {
+      "车辆": "X3S0210",
+      "总 Clips": "8,625",
+      "不通过率": "69.6%",
+      "不通过数": "6,007",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "882 (10.2%)",
+      "seq_frame_interval_too_large": "6 (0.1%)",
+      "camera_interval_too_large": "5,946 (68.9%)"
+    },
+    {
+      "车辆": "DataTest008",
+      "总 Clips": "3,604",
+      "不通过率": "69.5%",
+      "不通过数": "2,503",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "2,503 (69.5%)",
+      "seq_frame_interval_too_large": "725 (20.1%)",
+      "camera_interval_too_large": "2 (0.1%)"
+    },
+    {
+      "车辆": "X6S7930",
+      "总 Clips": "246",
+      "不通过率": "69.5%",
+      "不通过数": "171",
+      "loss_camera_sensor": "41 (16.7%)",
+      "pcd_loss": "8 (3.3%)",
+      "seq_frame_interval_too_large": "44 (17.9%)",
+      "camera_interval_too_large": "169 (68.7%)"
+    },
+    {
+      "车辆": "X6S5635",
+      "总 Clips": "16,735",
+      "不通过率": "69%",
+      "不通过数": "11,555",
+      "loss_camera_sensor": "1 (0%)",
+      "pcd_loss": "1,433 (8.6%)",
+      "seq_frame_interval_too_large": "33 (0.2%)",
+      "camera_interval_too_large": "11,408 (68.2%)"
+    },
+    {
+      "车辆": "X6S5618",
+      "总 Clips": "13,854",
+      "不通过率": "68.9%",
+      "不通过数": "9,546",
+      "loss_camera_sensor": "11 (0.1%)",
+      "pcd_loss": "838 (6%)",
+      "seq_frame_interval_too_large": "11 (0.1%)",
+      "camera_interval_too_large": "9,065 (65.4%)"
+    },
+    {
+      "车辆": "X6S5619",
+      "总 Clips": "14,170",
+      "不通过率": "68.9%",
+      "不通过数": "9,768",
+      "loss_camera_sensor": "5 (0%)",
+      "pcd_loss": "481 (3.4%)",
+      "seq_frame_interval_too_large": "28 (0.2%)",
+      "camera_interval_too_large": "9,451 (66.7%)"
+    },
+    {
+      "车辆": "X6S5637",
+      "总 Clips": "12,752",
+      "不通过率": "68.6%",
+      "不通过数": "8,746",
+      "loss_camera_sensor": "6 (0%)",
+      "pcd_loss": "1,238 (9.7%)",
+      "seq_frame_interval_too_large": "16 (0.1%)",
+      "camera_interval_too_large": "8,571 (67.2%)"
+    },
+    {
+      "车辆": "X6S5625",
+      "总 Clips": "14,548",
+      "不通过率": "67%",
+      "不通过数": "9,753",
+      "loss_camera_sensor": "3 (0%)",
+      "pcd_loss": "879 (6%)",
+      "seq_frame_interval_too_large": "24 (0.2%)",
+      "camera_interval_too_large": "9,347 (64.2%)"
+    },
+    {
+      "车辆": "X6S5009",
+      "总 Clips": "5,320",
+      "不通过率": "66.9%",
+      "不通过数": "3,561",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "1,640 (30.8%)",
+      "seq_frame_interval_too_large": "359 (6.7%)",
+      "camera_interval_too_large": "2,197 (41.3%)"
+    },
+    {
+      "车辆": "X6S5617",
+      "总 Clips": "13,576",
+      "不通过率": "65.8%",
+      "不通过数": "8,928",
+      "loss_camera_sensor": "3 (0%)",
+      "pcd_loss": "274 (2%)",
+      "seq_frame_interval_too_large": "10 (0.1%)",
+      "camera_interval_too_large": "8,682 (64%)"
+    },
+    {
+      "车辆": "DataTest011",
+      "总 Clips": "2,181",
+      "不通过率": "63%",
+      "不通过数": "1,375",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "1,375 (63%)",
+      "seq_frame_interval_too_large": "188 (8.6%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest049",
+      "总 Clips": "32",
+      "不通过率": "62.5%",
+      "不通过数": "20",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "20 (62.5%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "X3S0195",
+      "总 Clips": "12,946",
+      "不通过率": "61.8%",
+      "不通过数": "8,007",
+      "loss_camera_sensor": "3 (0%)",
+      "pcd_loss": "234 (1.8%)",
+      "seq_frame_interval_too_large": "9 (0.1%)",
+      "camera_interval_too_large": "7,815 (60.4%)"
+    },
+    {
+      "车辆": "X3S0206",
+      "总 Clips": "13,456",
+      "不通过率": "61.1%",
+      "不通过数": "8,226",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "1,253 (9.3%)",
+      "seq_frame_interval_too_large": "2 (0%)",
+      "camera_interval_too_large": "8,106 (60.2%)"
+    },
+    {
+      "车辆": "X3S0203",
+      "总 Clips": "10,640",
+      "不通过率": "61%",
+      "不通过数": "6,489",
+      "loss_camera_sensor": "12 (0.1%)",
+      "pcd_loss": "150 (1.4%)",
+      "seq_frame_interval_too_large": "11 (0.1%)",
+      "camera_interval_too_large": "6,421 (60.3%)"
+    },
+    {
+      "车辆": "X6S5628",
+      "总 Clips": "16,750",
+      "不通过率": "59.9%",
+      "不通过数": "10,030",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "888 (5.3%)",
+      "seq_frame_interval_too_large": "15 (0.1%)",
+      "camera_interval_too_large": "9,946 (59.4%)"
+    },
+    {
+      "车辆": "X3S0052",
+      "总 Clips": "13,461",
+      "不通过率": "59.4%",
+      "不通过数": "7,998",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "288 (2.1%)",
+      "seq_frame_interval_too_large": "10 (0.1%)",
+      "camera_interval_too_large": "7,906 (58.7%)"
+    },
+    {
+      "车辆": "X6S5631",
+      "总 Clips": "17,904",
+      "不通过率": "59%",
+      "不通过数": "10,567",
+      "loss_camera_sensor": "13 (0.1%)",
+      "pcd_loss": "1,024 (5.7%)",
+      "seq_frame_interval_too_large": "9 (0.1%)",
+      "camera_interval_too_large": "10,207 (57%)"
+    },
+    {
+      "车辆": "X3S0205",
+      "总 Clips": "9,274",
+      "不通过率": "59%",
+      "不通过数": "5,469",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "204 (2.2%)",
+      "seq_frame_interval_too_large": "10 (0.1%)",
+      "camera_interval_too_large": "5,447 (58.7%)"
+    },
+    {
+      "车辆": "X6S5629",
+      "总 Clips": "15,466",
+      "不通过率": "58.9%",
+      "不通过数": "9,104",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "1,497 (9.7%)",
+      "seq_frame_interval_too_large": "14 (0.1%)",
+      "camera_interval_too_large": "8,957 (57.9%)"
+    },
+    {
+      "车辆": "X6S5632",
+      "总 Clips": "14,684",
+      "不通过率": "56.6%",
+      "不通过数": "8,309",
+      "loss_camera_sensor": "93 (0.6%)",
+      "pcd_loss": "740 (5%)",
+      "seq_frame_interval_too_large": "13 (0.1%)",
+      "camera_interval_too_large": "8,182 (55.7%)"
+    },
+    {
+      "车辆": "X3S0199",
+      "总 Clips": "12,573",
+      "不通过率": "56.4%",
+      "不通过数": "7,094",
+      "loss_camera_sensor": "9 (0.1%)",
+      "pcd_loss": "177 (1.4%)",
+      "seq_frame_interval_too_large": "12 (0.1%)",
+      "camera_interval_too_large": "7,037 (56%)"
+    },
+    {
+      "车辆": "X3S0201",
+      "总 Clips": "14,927",
+      "不通过率": "54.8%",
+      "不通过数": "8,173",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "227 (1.5%)",
+      "seq_frame_interval_too_large": "11 (0.1%)",
+      "camera_interval_too_large": "8,108 (54.3%)"
+    },
+    {
+      "车辆": "DataTest004",
+      "总 Clips": "1,174",
+      "不通过率": "54.4%",
+      "不通过数": "639",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "639 (54.4%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "X6S5610",
+      "总 Clips": "16,728",
+      "不通过率": "54.3%",
+      "不通过数": "9,089",
+      "loss_camera_sensor": "12 (0.1%)",
+      "pcd_loss": "229 (1.4%)",
+      "seq_frame_interval_too_large": "27 (0.2%)",
+      "camera_interval_too_large": "8,903 (53.2%)"
+    },
+    {
+      "车辆": "X3S0202",
+      "总 Clips": "13,326",
+      "不通过率": "53.8%",
+      "不通过数": "7,173",
+      "loss_camera_sensor": "1 (0%)",
+      "pcd_loss": "168 (1.3%)",
+      "seq_frame_interval_too_large": "13 (0.1%)",
+      "camera_interval_too_large": "7,149 (53.6%)"
+    },
+    {
+      "车辆": "X3S0198",
+      "总 Clips": "17,351",
+      "不通过率": "52.6%",
+      "不通过数": "9,131",
+      "loss_camera_sensor": "149 (0.9%)",
+      "pcd_loss": "659 (3.8%)",
+      "seq_frame_interval_too_large": "24 (0.1%)",
+      "camera_interval_too_large": "8,623 (49.7%)"
+    },
+    {
+      "车辆": "X6S5620",
+      "总 Clips": "21,278",
+      "不通过率": "52.3%",
+      "不通过数": "11,130",
+      "loss_camera_sensor": "54 (0.3%)",
+      "pcd_loss": "985 (4.6%)",
+      "seq_frame_interval_too_large": "19 (0.1%)",
+      "camera_interval_too_large": "10,742 (50.5%)"
+    },
+    {
+      "车辆": "X3S0200",
+      "总 Clips": "14,739",
+      "不通过率": "51.9%",
+      "不通过数": "7,656",
+      "loss_camera_sensor": "1 (0%)",
+      "pcd_loss": "192 (1.3%)",
+      "seq_frame_interval_too_large": "13 (0.1%)",
+      "camera_interval_too_large": "7,480 (50.7%)"
+    },
+    {
+      "车辆": "X6S5616",
+      "总 Clips": "17,030",
+      "不通过率": "51.2%",
+      "不通过数": "8,714",
+      "loss_camera_sensor": "12 (0.1%)",
+      "pcd_loss": "424 (2.5%)",
+      "seq_frame_interval_too_large": "147 (0.9%)",
+      "camera_interval_too_large": "8,568 (50.3%)"
+    },
+    {
+      "车辆": "X6S5622",
+      "总 Clips": "21,623",
+      "不通过率": "50.8%",
+      "不通过数": "10,982",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "949 (4.4%)",
+      "seq_frame_interval_too_large": "27 (0.1%)",
+      "camera_interval_too_large": "10,571 (48.9%)"
+    },
+    {
+      "车辆": "X6S5612",
+      "总 Clips": "20,482",
+      "不通过率": "50.5%",
+      "不通过数": "10,342",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "370 (1.8%)",
+      "seq_frame_interval_too_large": "53 (0.3%)",
+      "camera_interval_too_large": "10,099 (49.3%)"
+    },
+    {
+      "车辆": "X6S5627",
+      "总 Clips": "17,789",
+      "不通过率": "49.9%",
+      "不通过数": "8,885",
+      "loss_camera_sensor": "57 (0.3%)",
+      "pcd_loss": "2,397 (13.5%)",
+      "seq_frame_interval_too_large": "13 (0.1%)",
+      "camera_interval_too_large": "8,477 (47.7%)"
+    },
+    {
+      "车辆": "X6S5608",
+      "总 Clips": "18,760",
+      "不通过率": "49.2%",
+      "不通过数": "9,227",
+      "loss_camera_sensor": "8 (0%)",
+      "pcd_loss": "423 (2.3%)",
+      "seq_frame_interval_too_large": "20 (0.1%)",
+      "camera_interval_too_large": "9,032 (48.1%)"
+    },
+    {
+      "车辆": "X6S5630",
+      "总 Clips": "25,218",
+      "不通过率": "47.5%",
+      "不通过数": "11,974",
+      "loss_camera_sensor": "57 (0.2%)",
+      "pcd_loss": "1,046 (4.1%)",
+      "seq_frame_interval_too_large": "30 (0.1%)",
+      "camera_interval_too_large": "11,556 (45.8%)"
+    },
+    {
+      "车辆": "X6S5626",
+      "总 Clips": "19,671",
+      "不通过率": "47.4%",
+      "不通过数": "9,321",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "401 (2%)",
+      "seq_frame_interval_too_large": "18 (0.1%)",
+      "camera_interval_too_large": "9,170 (46.6%)"
+    },
+    {
+      "车辆": "X6S5614",
+      "总 Clips": "16,542",
+      "不通过率": "44.1%",
+      "不通过数": "7,292",
+      "loss_camera_sensor": "131 (0.8%)",
+      "pcd_loss": "709 (4.3%)",
+      "seq_frame_interval_too_large": "23 (0.1%)",
+      "camera_interval_too_large": "6,643 (40.2%)"
+    },
+    {
+      "车辆": "X3S0196",
+      "总 Clips": "17,492",
+      "不通过率": "43.4%",
+      "不通过数": "7,591",
+      "loss_camera_sensor": "5 (0%)",
+      "pcd_loss": "82 (0.5%)",
+      "seq_frame_interval_too_large": "21 (0.1%)",
+      "camera_interval_too_large": "7,524 (43%)"
+    },
+    {
+      "车辆": "X6S5607",
+      "总 Clips": "12,270",
+      "不通过率": "42.6%",
+      "不通过数": "5,228",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "1,176 (9.6%)",
+      "seq_frame_interval_too_large": "11 (0.1%)",
+      "camera_interval_too_large": "4,844 (39.5%)"
+    },
+    {
+      "车辆": "X6S7928",
+      "总 Clips": "149",
+      "不通过率": "41.6%",
+      "不通过数": "62",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "60 (40.3%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "2 (1.3%)"
+    },
+    {
+      "车辆": "DataTest005",
+      "总 Clips": "1,701",
+      "不通过率": "40.9%",
+      "不通过数": "696",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "696 (40.9%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest030",
+      "总 Clips": "201",
+      "不通过率": "40.8%",
+      "不通过数": "82",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "82 (40.8%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "X6S5613",
+      "总 Clips": "17,380",
+      "不通过率": "40.6%",
+      "不通过数": "7,059",
+      "loss_camera_sensor": "1 (0%)",
+      "pcd_loss": "514 (3%)",
+      "seq_frame_interval_too_large": "50 (0.3%)",
+      "camera_interval_too_large": "6,575 (37.8%)"
+    },
+    {
+      "车辆": "X6S5605",
+      "总 Clips": "21,199",
+      "不通过率": "40.2%",
+      "不通过数": "8,525",
+      "loss_camera_sensor": "4 (0%)",
+      "pcd_loss": "349 (1.6%)",
+      "seq_frame_interval_too_large": "31 (0.1%)",
+      "camera_interval_too_large": "8,228 (38.8%)"
+    },
+    {
+      "车辆": "X6S5604",
+      "总 Clips": "24,693",
+      "不通过率": "37.7%",
+      "不通过数": "9,321",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "889 (3.6%)",
+      "seq_frame_interval_too_large": "17 (0.1%)",
+      "camera_interval_too_large": "8,531 (34.5%)"
+    },
+    {
+      "车辆": "X3S0207",
+      "总 Clips": "7,214",
+      "不通过率": "37.6%",
+      "不通过数": "2,710",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "1,215 (16.8%)",
+      "seq_frame_interval_too_large": "4 (0.1%)",
+      "camera_interval_too_large": "1,971 (27.3%)"
+    },
+    {
+      "车辆": "DataTest020",
+      "总 Clips": "1,305",
+      "不通过率": "32.9%",
+      "不通过数": "429",
+      "loss_camera_sensor": "30 (2.3%)",
+      "pcd_loss": "428 (32.8%)",
+      "seq_frame_interval_too_large": "154 (11.8%)",
+      "camera_interval_too_large": "30 (2.3%)"
+    },
+    {
+      "车辆": "DataTest015",
+      "总 Clips": "789",
+      "不通过率": "31.6%",
+      "不通过数": "249",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "249 (31.6%)",
+      "seq_frame_interval_too_large": "52 (6.6%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest037",
+      "总 Clips": "430",
+      "不通过率": "27.9%",
+      "不通过数": "120",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "120 (27.9%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "X3S0209",
+      "总 Clips": "4,848",
+      "不通过率": "27.7%",
+      "不通过数": "1,344",
+      "loss_camera_sensor": "1 (0%)",
+      "pcd_loss": "90 (1.9%)",
+      "seq_frame_interval_too_large": "1 (0%)",
+      "camera_interval_too_large": "1,339 (27.6%)"
+    },
+    {
+      "车辆": "DataTest035",
+      "总 Clips": "145",
+      "不通过率": "24.1%",
+      "不通过数": "35",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "35 (24.1%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest036",
+      "总 Clips": "550",
+      "不通过率": "20.2%",
+      "不通过数": "111",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "111 (20.2%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest026",
+      "总 Clips": "1,167",
+      "不通过率": "16%",
+      "不通过数": "187",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "187 (16%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest025",
+      "总 Clips": "720",
+      "不通过率": "14.4%",
+      "不通过数": "104",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "104 (14.4%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest027",
+      "总 Clips": "514",
+      "不通过率": "13.2%",
+      "不通过数": "68",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "68 (13.2%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest028",
+      "总 Clips": "501",
+      "不通过率": "12.8%",
+      "不通过数": "64",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "63 (12.6%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "5 (1%)"
+    },
+    {
+      "车辆": "DataTest032",
+      "总 Clips": "682",
+      "不通过率": "10.6%",
+      "不通过数": "72",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "72 (10.6%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest021",
+      "总 Clips": "746",
+      "不通过率": "8.7%",
+      "不通过数": "65",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "65 (8.7%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest022",
+      "总 Clips": "368",
+      "不通过率": "6%",
+      "不通过数": "22",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "22 (6%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest023",
+      "总 Clips": "814",
+      "不通过率": "5.2%",
+      "不通过数": "42",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "41 (5%)",
+      "seq_frame_interval_too_large": "1 (0.1%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "X6S7927",
+      "总 Clips": "455",
+      "不通过率": "4.8%",
+      "不通过数": "22",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "0 (0%)",
+      "seq_frame_interval_too_large": "12 (2.6%)",
+      "camera_interval_too_large": "10 (2.2%)"
+    },
+    {
+      "车辆": "X6S7929",
+      "总 Clips": "796",
+      "不通过率": "3.5%",
+      "不通过数": "28",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "0 (0%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "28 (3.5%)"
+    },
+    {
+      "车辆": "X6S7926",
+      "总 Clips": "570",
+      "不通过率": "1.9%",
+      "不通过数": "11",
+      "loss_camera_sensor": "1 (0.2%)",
+      "pcd_loss": "4 (0.7%)",
+      "seq_frame_interval_too_large": "2 (0.4%)",
+      "camera_interval_too_large": "6 (1.1%)"
+    },
+    {
+      "车辆": "DataTest031",
+      "总 Clips": "593",
+      "不通过率": "0%",
+      "不通过数": "0",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "0 (0%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest042",
+      "总 Clips": "0",
+      "不通过率": "0%",
+      "不通过数": "0",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "0 (0%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest040",
+      "总 Clips": "0",
+      "不通过率": "0%",
+      "不通过数": "0",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "0 (0%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    },
+    {
+      "车辆": "DataTest029",
+      "总 Clips": "0",
+      "不通过率": "0%",
+      "不通过数": "0",
+      "loss_camera_sensor": "0 (0%)",
+      "pcd_loss": "0 (0%)",
+      "seq_frame_interval_too_large": "0 (0%)",
+      "camera_interval_too_large": "0 (0%)"
+    }
+  ],
+  "date_filter": {
+    "start_date": null,
+    "end_date": null,
+    "kpi_scope": "dashboard_snapshot",
+    "vehicle_table_scope": "dashboard_snapshot",
+    "quality_table_scope": "dashboard_snapshot"
+  },
+  "tables": [],
+  "diagnostics": []
+}

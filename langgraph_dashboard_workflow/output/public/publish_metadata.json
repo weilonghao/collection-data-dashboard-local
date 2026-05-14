@@ -1,0 +1,12 @@
+{
+  "status": "prepared",
+  "generated_at": "2026-05-14 17:36:00",
+  "source": "langgraph_dashboard_workflow",
+  "files": [
+    "index.html",
+    "collection_dashboard.json",
+    "dashboard_overview.json",
+    "sources_manifest.json",
+    "run.log"
+  ]
+}
