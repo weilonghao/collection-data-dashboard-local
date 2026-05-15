@@ -1,9 +1,9 @@
 collection_data_dashboard workflow initialized
 {
-  "run_id": "2026-05-15T13-04-26",
+  "run_id": "2026-05-15T14-03-33",
   "refresh_mode": "daily_snapshot",
-  "output_dir": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-15T13-04-26",
-  "raw_dir": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-15T13-04-26/raw",
+  "output_dir": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-15T14-03-33",
+  "raw_dir": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-15T14-03-33/raw",
   "latest_dir": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/latest",
   "warehouse_dir": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/warehouse",
   "source_count": 8,
@@ -17,8 +17,8 @@ collection_data_dashboard workflow initialized
 }
 
 artifacts
-collection_dashboard.json: C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-15T13-04-26/collection_dashboard.json
-collection_data_dashboard.html: C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-15T13-04-26/collection_data_dashboard.html
-collection_data_dashboard_embed.html: C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-15T13-04-26/collection_data_dashboard_embed.html
-collection_data_dashboard_iframe_preview.html: C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-15T13-04-26/collection_data_dashboard_iframe_preview.html
-raw_dir: C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-15T13-04-26/raw
+collection_dashboard.json: C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-15T14-03-33/collection_dashboard.json
+collection_data_dashboard.html: C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-15T14-03-33/collection_data_dashboard.html
+collection_data_dashboard_embed.html: C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-15T14-03-33/collection_data_dashboard_embed.html
+collection_data_dashboard_iframe_preview.html: C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-15T14-03-33/collection_data_dashboard_iframe_preview.html
+raw_dir: C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-15T14-03-33/raw
