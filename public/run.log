@@ -1,13 +1,13 @@
 collection_data_dashboard workflow initialized
 {
-  "run_id": "2026-05-18T19-02-47",
+  "run_id": "2026-05-18T20-04-42",
   "refresh_mode": "daily_snapshot",
-  "output_dir": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-18T19-02-47",
-  "raw_dir": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-18T19-02-47/raw",
+  "output_dir": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-18T20-04-42",
+  "raw_dir": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-18T20-04-42/raw",
   "latest_dir": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/latest",
   "warehouse_dir": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/warehouse",
-  "source_count": 9,
-  "enabled_source_count": 9,
+  "source_count": 12,
+  "enabled_source_count": 12,
   "dashboard_source_count": 1,
   "enabled_dashboard_source_count": 1,
   "weekly_sources_config": "C:\\Users\\28349\\Desktop\\采集数据看板本地版\\langgraph_dashboard_workflow\\config\\weekly_sources.yaml",
@@ -17,8 +17,8 @@ collection_data_dashboard workflow initialized
 }
 
 artifacts
-collection_dashboard.json: C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-18T19-02-47/collection_dashboard.json
-collection_data_dashboard.html: C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-18T19-02-47/collection_data_dashboard.html
-collection_data_dashboard_embed.html: C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-18T19-02-47/collection_data_dashboard_embed.html
-collection_data_dashboard_iframe_preview.html: C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-18T19-02-47/collection_data_dashboard_iframe_preview.html
-raw_dir: C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-18T19-02-47/raw
+collection_dashboard.json: C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-18T20-04-42/collection_dashboard.json
+collection_data_dashboard.html: C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-18T20-04-42/collection_data_dashboard.html
+collection_data_dashboard_embed.html: C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-18T20-04-42/collection_data_dashboard_embed.html
+collection_data_dashboard_iframe_preview.html: C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-18T20-04-42/collection_data_dashboard_iframe_preview.html
+raw_dir: C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-18T20-04-42/raw
