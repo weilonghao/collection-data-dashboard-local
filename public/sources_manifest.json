@@ -10,7 +10,7 @@
     "source_title": "human_e2e_intersection_duration",
     "display_name": "human_e2e_intersection_duration",
     "status": "success",
-    "local_path": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-20T09-04-24/raw/human_e2e_intersection_duration__GBcAn1.csv",
+    "local_path": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-20T10-04-54/raw/human_e2e_intersection_duration__GBcAn1.csv",
     "row_count": 1092,
     "reuse_mode": "local_raw_snapshot"
   },
@@ -25,8 +25,8 @@
     "source_title": "human_e2e_mileage_duration",
     "display_name": "human_e2e_mileage_duration",
     "status": "success",
-    "local_path": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-20T09-04-24/raw/human_e2e_mileage_duration__LHWySj.csv",
-    "row_count": 2962,
+    "local_path": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-20T10-04-54/raw/human_e2e_mileage_duration__LHWySj.csv",
+    "row_count": 2927,
     "reuse_mode": "local_raw_snapshot"
   },
   {
@@ -40,7 +40,7 @@
     "source_title": "human_nudge_duration",
     "display_name": "human_nudge_duration",
     "status": "success",
-    "local_path": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-20T09-04-24/raw/human_nudge_duration__04TsPu.csv",
+    "local_path": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-20T10-04-54/raw/human_nudge_duration__04TsPu.csv",
     "row_count": 2662,
     "reuse_mode": "local_raw_snapshot"
   },
@@ -55,7 +55,7 @@
     "source_title": "human_qingdao_schedule",
     "display_name": "human_qingdao_schedule",
     "status": "success",
-    "local_path": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-20T09-04-24/raw/human_qingdao_schedule__Z64G9X.csv",
+    "local_path": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-20T10-04-54/raw/human_qingdao_schedule__Z64G9X.csv",
     "row_count": 610,
     "reuse_mode": "local_raw_snapshot"
   },
@@ -70,7 +70,7 @@
     "source_title": "盐城数据采集记录(PNC人驾车)",
     "display_name": "盐城数据采集记录(PNC人驾车)",
     "status": "success",
-    "local_path": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-20T09-04-24/raw/human_yancheng_trial__8ceb02.csv",
+    "local_path": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-20T10-04-54/raw/human_yancheng_trial__8ceb02.csv",
     "row_count": 800,
     "reuse_mode": "local_raw_snapshot"
   },
@@ -85,7 +85,7 @@
     "source_title": "青岛数据采集记录(MID360)",
     "display_name": "青岛数据采集记录(MID360)",
     "status": "success",
-    "local_path": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-20T09-04-24/raw/source_001__xyN0HU.csv",
+    "local_path": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-20T10-04-54/raw/source_001__xyN0HU.csv",
     "row_count": 2168,
     "reuse_mode": "local_raw_snapshot"
   },
@@ -100,7 +100,7 @@
     "source_title": "青岛黄岛区数据采集记录(ATX+MID360) ",
     "display_name": "青岛黄岛区数据采集记录(ATX+MID360) ",
     "status": "success",
-    "local_path": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-20T09-04-24/raw/source_002__HT8WDY.csv",
+    "local_path": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-20T10-04-54/raw/source_002__HT8WDY.csv",
     "row_count": 3305,
     "reuse_mode": "local_raw_snapshot"
   },
@@ -115,7 +115,7 @@
     "source_title": "青岛数据采集记录(ATX) ",
     "display_name": "青岛数据采集记录(ATX) ",
     "status": "success",
-    "local_path": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-20T09-04-24/raw/source_003__HT8WDY.csv",
+    "local_path": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-20T10-04-54/raw/source_003__HT8WDY.csv",
     "row_count": 4415,
     "reuse_mode": "local_raw_snapshot"
   },
@@ -130,7 +130,7 @@
     "source_title": "source_004",
     "display_name": "source_004",
     "status": "success",
-    "local_path": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-20T09-04-24/raw/source_004__xyN0HU.csv",
+    "local_path": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-20T10-04-54/raw/source_004__xyN0HU.csv",
     "row_count": 2127,
     "reuse_mode": "local_raw_snapshot"
   },
@@ -145,7 +145,7 @@
     "source_title": "临沂数据采集记录(ATX)",
     "display_name": "临沂数据采集记录(ATX)",
     "status": "success",
-    "local_path": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-20T09-04-24/raw/source_005__jqEQQc.csv",
+    "local_path": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-20T10-04-54/raw/source_005__jqEQQc.csv",
     "row_count": 3365,
     "reuse_mode": "local_raw_snapshot"
   },
@@ -160,7 +160,7 @@
     "source_title": "青岛&临沂数据采集记录(PNC摇操车)",
     "display_name": "青岛&临沂数据采集记录(PNC摇操车)",
     "status": "success",
-    "local_path": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-20T09-04-24/raw/source_006__fa4701.csv",
+    "local_path": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-20T10-04-54/raw/source_006__fa4701.csv",
     "row_count": 2044,
     "reuse_mode": "local_raw_snapshot"
   },
@@ -175,7 +175,7 @@
     "source_title": "专项采集_采集标注回流记录",
     "display_name": "专项采集_采集标注回流记录",
     "status": "success",
-    "local_path": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-20T09-04-24/raw/special_collection_progress__9tnLV4.csv",
+    "local_path": "C:/Users/28349/Desktop/采集数据看板本地版/langgraph_dashboard_workflow/output/generated/runs/2026-05-20T10-04-54/raw/special_collection_progress__9tnLV4.csv",
     "row_count": 3340,
     "reuse_mode": "local_raw_snapshot"
   }
